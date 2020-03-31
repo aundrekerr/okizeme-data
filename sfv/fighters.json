@@ -4083,8 +4083,8 @@
 		"vanity": {
 			"icon": "Akuma.png",
 			"banner": "",
-			"tagline": "",
-			"description": "Master of the Fist"
+			"tagline": "Master of the Fist",
+			"description": ""
 		},
 		"movelist": {
 			"normal": [
@@ -7026,8 +7026,8 @@
 		"vanity": {
 			"icon": "Alex.png",
 			"banner": "",
-			"tagline": "",
-			"description": "Awakened Talent"
+			"tagline": "Awakened Talent",
+			"description": ""
 		},
 		"movelist": {
 			"normal": [
@@ -8912,8 +8912,8 @@
 		"vanity": {
 			"icon": "Balrog.png",
 			"banner": "",
-			"tagline": "",
-			"description": "Destroyer of Rules"
+			"tagline": "Destroyer of Rules",
+			"description": ""
 		},
 		"movelist": {
 			"normals": [
@@ -11381,8 +11381,8 @@
 		"vanity": {
 			"icon": "Birdie.png",
 			"banner": "",
-			"tagline": "",
-			"description": "Headbutt Happy Glutton"
+			"tagline": "Headbutt Happy Glutton",
+			"description": ""
 		},
 		"movelist": {
 			"normal": [
@@ -14849,8 +14849,8 @@
 		"vanity": {
 			"icon": "Blanka.png",
 			"banner": "",
-			"tagline": "",
-			"description": "Warrior of the Amazon"
+			"tagline": "Warrior of the Amazon",
+			"description": ""
 		},
 		"movelist": {
 			"normal": [
@@ -86457,7 +86457,7 @@
 		}
 	},
 	"Zeku": {
-		"name": "O. Zeku",
+		"name": "Zeku",
 		"vanity": {
 			"icon": "Zeku.png",
 			"banner": "",
