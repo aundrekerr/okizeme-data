@@ -4,8 +4,8 @@
 		"vanity": {
 			"icon": "Abigail.png",
 			"banner": "",
-			"tagline": "",
-			"description": "Superhuman Hot-Rodder"
+			"tagline": "Superhuman Hot-Rodder",
+			"description": ""
 		},
 		"movelist": {
 			"normal": [
