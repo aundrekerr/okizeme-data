@@ -4082,7 +4082,7 @@
 		"name": "Akuma",
 		"vanity": {
 			"icon": "Akuma.png",
-			"banner": "",
+			"banner": "banner-Akuma.png",
 			"tagline": "Master of the Fist",
 			"description": ""
 		},
