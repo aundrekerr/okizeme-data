@@ -6808,7 +6808,7 @@
 				{
 						"moveName": "V-Hyakkishu EX > Hyakki Gosai",
 						"plnCmd": "hcf+KK> LPLK",
-						"numCmd": "412362KK> LPLK",
+						"numCmd": "412362KK > LPLK",
 						"cmnCmd": "EX Demon Flip > Throw (Vtrigger 2)",
 						"startup": "6*26",
 						"active": "10(11)3",
@@ -73574,7 +73574,7 @@
 							"moveButton": "HPHK"
 					}
 			],
-			"statss": [
+			"stats": [
 					{
 							"name": "health",
 							"stat": 1025
