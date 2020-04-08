@@ -45953,7 +45953,7 @@
 							"moveButton": "1K"
 					}
 			],
-			"trigger3": [
+			"trigger2": [
 					{
 							"moveName": "Yasha Gaeshi (stance)",
 							"plnCmd": "HP+HK (parry)",
