@@ -4884,7 +4884,7 @@
 				{
 						"moveName": "Sekia Goshoha (V-Skill 2)",
 						"plnCmd": "MP+MK (VS2) > hcb+P",
-						"numCmd": "MPMK (VS2) > hcb+P",
+						"numCmd": "MPMK (VS2) > 63214P",
 						"cmnCmd": "VSkill 2 Red Fireball",
 						"startup": 18,
 						"active": "~",
@@ -4912,7 +4912,7 @@
 				{
 						"moveName": "Sekia Goshoha EX (V-Skill 2)",
 						"plnCmd": "MP+MK (VS2) > hcb+PP",
-						"numCmd": "MPMK (VS2) > hcb+PP",
+						"numCmd": "MPMK (VS2) > 63214PP",
 						"cmnCmd": "VSkill 2 EX Red Fireball",
 						"startup": 21,
 						"active": "~",
@@ -4940,7 +4940,7 @@
 				{
 						"moveName": "Sekia Goshoha Just Frame (V-Skill 2)",
 						"plnCmd": "MP+MK (VS2) > hcb+P",
-						"numCmd": "MPMK (VS2) > hcb+PP",
+						"numCmd": "MPMK (VS2) > 63214PP",
 						"cmnCmd": "VSkill 2 Red Fireball (Just Frame)",
 						"startup": 13,
 						"active": "~",
@@ -4965,7 +4965,7 @@
 				{
 						"moveName": "Sekia Goshoha EX Just Frame (V-Skill 2)",
 						"plnCmd": "MP+MK (VS2) > hcb+PP",
-						"numCmd": "MPMK (VS2) > hcb+PP",
+						"numCmd": "MPMK (VS2) > 63214PP",
 						"cmnCmd": "VSkill 2 EX Red Fireball (Just Frame)",
 						"startup": 13,
 						"recovery": 42,
@@ -6224,7 +6224,7 @@
 				{
 						"moveName": "Hyakki Gorasen",
 						"plnCmd": "hcf+KK > QCB+K",
-						"numCmd": "41236KK > 421K",
+						"numCmd": "41236KK > 214K",
 						"cmnCmd": "EX  Demon Flip > Tatsu",
 						"startup": 6,
 						"active": "10(13)2(4)2(2)2(3)2(2)2",
@@ -6858,7 +6858,7 @@
 				{
 						"moveName": "V-Hyakki Gorasen",
 						"plnCmd": "hcf+KK > QCB+K",
-						"numCmd": "41236KK > 421K",
+						"numCmd": "41236KK > 214K",
 						"cmnCmd": "EX  Demon Flip > Tatsu (Vtrigger 2)",
 						"startup": 6,
 						"active": "10(13)2(4)2(2)2(3)2(2)2",
