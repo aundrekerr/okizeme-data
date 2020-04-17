@@ -4960,6 +4960,7 @@
 						"airmove": "false",
 						"followUp": "true",
 						"projectile": "true",
+						"video": "https://www.youtube.com/watch?v=ZLtn1AFkJrk",
 						"extraInfo": "[\"2-hit Projectile hitbox\", \"Different fireball speed based on button press\", \"Launches the opponent into a limited juggle state\", \"6 frame gap on block when canceled from V-Skill 2\", \"Cancels into some V-Trigger 2 enhanced specials on hit/block; EX Fireball / EX Tatsu / EX DP / EX Demon Flip\", \"Can only cancel into V-Trigger activation up close on hit/block\", \"Builds 20 / 10 V-Gauge on Hit / Block\"]"
 				},
 				{
