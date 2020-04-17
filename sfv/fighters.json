@@ -4776,7 +4776,7 @@
 				{
 						"moveName": "Rakan",
 						"plnCmd": "MP+MK",
-						"numCmd": "MPMK",
+						"numCmd": "MPMK (VS1)",
 						"cmnCmd": "VSkill 1",
 						"startup": 3,
 						"active": 12,
