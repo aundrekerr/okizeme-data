@@ -4746,7 +4746,8 @@
 						"projectile": "false",
 						"moveType": "throw",
 						"moveMotion": "N",
-						"moveButton": "LPLK"
+						"moveButton": "LPLK",
+						"video": "https://www.youtube.com/watch?v=3wvZN8yc8eY"
 				},
 				{
 						"moveName": "Shuretsuzan",
@@ -4793,6 +4794,7 @@
 						"airmove": "false",
 						"followUp": "false",
 						"projectile": "false",
+						"video": "https://www.youtube.com/watch?v=2t_MDD7FOqo",
 						"extraInfo": "[\"Armour on frames 3-14\", \"Cancels into follow-ups on the 10th frame\", \"Standing V-Skill parries standing and airborne state attacks\", \"Crouch V-Skill (input: down + V-Skill) parries crouching state attacks\", \"Gains 120 V-Gauge (40% of a V-Bar) on a successful parry\", \"10 frames of recovery on a successful parry (if not canceled immediately into the follow-ups)\"]",
 						"moveType": "vskill",
 						"moveMotion": "N",
@@ -4821,6 +4823,7 @@
 						"airmove": "false",
 						"followUp": "true",
 						"projectile": "false",
+						"video": "https://www.youtube.com/watch?v=pbBCad3PNbg",
 						"extraInfo": "[\"Armour on frames 3-10\", \"Gains 120 V-Gauge (40% of a V-Bar on a successful parry\", \"Gains 80 more V-Gauge (~27% of a V-Bar) on follow-up hit and 40 V-Gauge if blocked\", \"Cancels into some V-Trigger 2 enhanced specials on hit/block\"]",
 						"moveType": "vskill",
 						"moveMotion": "N",
@@ -4848,6 +4851,7 @@
 						"airmove": "false",
 						"followUp": "true",
 						"projectile": "false",
+						"video": "https://www.youtube.com/watch?v=bEqz8LusjPI",
 						"extraInfo": "[\"Armour on frames 3-10\", \"Launches into a limited juggle state\", \"Gains 120 V-Gauge (40% of a V-Bar on a successful parry\", \"Gains 80 more V-Gauge (~27% of a V-Bar) on follow-up hit and 40 V-Gauge if blocked\"]",
 						"moveType": "vskill",
 						"moveMotion": "N",
@@ -4876,6 +4880,7 @@
 						"airmove": "false",
 						"followUp": "true",
 						"projectile": "false",
+						"video": "https://www.youtube.com/watch?v=U46ztqEA0o4",
 						"extraInfo": "[\"Can nullify 1 projectile hit (except on last 2 active frames)\", \"Last 2 active frames hit air opponents only\", \"Launches opponent into a limited juggle state; Increased damage and stun on last 2 active frames for air oppnents (80 / 80)\", \"Can be canceled into Sekia Goshoha and Sekia Goshoaha EX (Red Fireball) frames 28-212\", \"Can be held to increase V-Gauge up to a maximum of 300\", \"Increases V-Gauge by 1 every frame from frames 43-132\", \"Increases V-Gauge by 2 every frame from frames 133-197\", \"Increase V-Gauge by 3 every frame from frames 198-212\", \"Builds 40 / 20 V-Gauge on Hit / Block (90 on Hit during last 2 active frames against air opponents)\"]",
 						"moveType": "vskill",
 						"moveMotion": "N",
@@ -4904,6 +4909,7 @@
 						"airmove": "false",
 						"followUp": "true",
 						"projectile": "true",
+						"video": "https://www.youtube.com/watch?v=vNtMzZCUH7Q",
 						"extraInfo": "[\"1-hit Projectile hitbox\", \"Different fireball speed based on button press\", \"8 frame gap on block when canceled from V-Skill 2\", \"Cancels into some V-Trigger 2 enhanced specials on hit/block; EX Fireball / EX Tatsu / EX DP / EX Demon Flip\", \"Can only cancel into V-Trigger activation up close on hit/block\", \"Builds 20 / 10 V-Gauge on Hit / Block\"]",
 						"moveType": "vskill",
 						"moveMotion": "N",
@@ -4932,6 +4938,7 @@
 						"airmove": "false",
 						"followUp": "true",
 						"projectile": "true",
+						"video": "https://www.youtube.com/watch?v=UmWEgnoCUPA",
 						"extraInfo": "[\"4-hit Projectile hitbox\", \"Does grey damage (not affected by scaling) on frames 2-20 before launching the fireball\", \"11 frame gap on block when canceled from V-Skill 2\", \"Cancels into some V-Trigger 2 enhanced specials on hit/block; EX Fireball / EX Tatsu / EX DP / EX Demon Flip\", \"Can only cancel into V-Trigger activation up close on hit/block\", \"Builds 40 / 20 V-Gauge on Hit / Block\"]",
 						"moveType": "vskill",
 						"moveMotion": "N",
@@ -4960,7 +4967,7 @@
 						"airmove": "false",
 						"followUp": "true",
 						"projectile": "true",
-						"video": "https://www.youtube.com/watch?v=ZLtn1AFkJrk",
+						"video": "https://www.youtube.com/watch?v=Jwv_idDwGBI",
 						"extraInfo": "[\"2-hit Projectile hitbox\", \"Different fireball speed based on button press\", \"Launches the opponent into a limited juggle state\", \"6 frame gap on block when canceled from V-Skill 2\", \"Cancels into some V-Trigger 2 enhanced specials on hit/block; EX Fireball / EX Tatsu / EX DP / EX Demon Flip\", \"Can only cancel into V-Trigger activation up close on hit/block\", \"Builds 20 / 10 V-Gauge on Hit / Block\"]"
 				},
 				{
@@ -4985,6 +4992,7 @@
 						"airmove": "false",
 						"followUp": "true",
 						"projectile": "true",
+						"video": "https://www.youtube.com/watch?v=ZLtn1AFkJrk",
 						"extraInfo": "[\"5-hit Projectile hitbox\", \"Launches the opponent into a limited juggle state\", \"Does grey damage (not affected by scaling) on frames 2-20 before launching the fireball\", \"11 frame gap on block when canceled from V-Skill 2\", \"Cancels into some V-Trigger 2 enhanced specials on hit/block; EX Fireball / EX Tatsu / EX DP / EX Demon Flip\", \"Can only cancel into V-Trigger activation up close on hit/block\", \"Builds 40 / 20 V-Gauge on Hit / Block\"]"
 				},
 				{
@@ -5062,6 +5070,7 @@
 						"airmove": "false",
 						"followUp": "false",
 						"projectile": "false",
+						"video": "https://www.youtube.com/watch?v=d8ONH7hIuIU",
 						"extraInfo": "[\"Strike and Projectile invincible on frames 1-21 (10 frames shorter than other V-Reversals like this)\", \"+3 extra KDA (+88/29/34) on Counter-Hit\"]",
 						"moveType": "alpha",
 						"moveMotion": "F",
@@ -6571,6 +6580,7 @@
 						"airmove": "false",
 						"followUp": "false",
 						"projectile": "false",
+						"video": "https://www.youtube.com/watch?v=_PSRTr2KbkY",
 						"extraInfo": "[\"Fully invincible on frames 1-12\", \"Hard Knockdown\",  \"Cannot hit airborne\", \"Can be canceled into at any point during most of Akuma's moves (besides 'Special' moves) on hit/block/whiff\"]",
 						"moveType": "super",
 						"moveMotion": "N",
