@@ -5043,7 +5043,7 @@
 						"airmove": "false",
 						"followUp": "false",
 						"projectile": "false",
-						"extraInfo": "[\"Duration of 3000 frames (50 seconds)\", \"Gives Akuma access to a different V-Trigger 2 version of his EX specials that spend V-meter as resource instead of EX meter\", \"Some moves that aren't normally special cancelable are cancelable into these V-Trigger 2 enhanced EX moves\"\"]",
+						"extraInfo": "[\"Duration of 3000 frames (50 seconds)\", \"Gives Akuma access to a different V-Trigger 2 version of his EX specials that spend V-meter as resource instead of EX meter\", \"Some moves that aren't normally special cancelable are cancelable into these V-Trigger 2 enhanced EX moves\"]",
 						"moveType": "vtrigger",
 						"moveMotion": "N",
 						"moveButton": "HPHK",
