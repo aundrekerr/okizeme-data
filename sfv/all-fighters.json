@@ -42760,7 +42760,7 @@
 				{
 						"moveName": "jump LP",
 						"plnCmd": "u+LP",
-						"numCmd": "j.LP",
+						"numCmd": "j.LP (air)",
 						"startup": 4,
 						"active": 5,
 						"recovery": "~",
@@ -42781,7 +42781,7 @@
 				{
 						"moveName": "jump MP",
 						"plnCmd": "u+MP",
-						"numCmd": "j.MP",
+						"numCmd": "j.MP (air)",
 						"startup": 7,
 						"active": 5,
 						"recovery": "~",
@@ -42808,7 +42808,7 @@
 				{
 						"moveName": "jump HP",
 						"plnCmd": "u+HP",
-						"numCmd": "j.HP",
+						"numCmd": "j.HP (air)",
 						"startup": 8,
 						"active": 5,
 						"recovery": "~",
@@ -42830,7 +42830,7 @@
 				{
 						"moveName": "jump LK",
 						"plnCmd": "u+LK",
-						"numCmd": "j.LK",
+						"numCmd": "j.LK (air)",
 						"startup": 4,
 						"active": 5,
 						"recovery": "~",
@@ -42852,7 +42852,7 @@
 				{
 						"moveName": "jump MK",
 						"plnCmd": "u+MK",
-						"numCmd": "j.MK",
+						"numCmd": "j.MK (air)",
 						"startup": 8,
 						"active": 5,
 						"recovery": "~",
@@ -42874,7 +42874,7 @@
 				{
 						"moveName": "jump HK",
 						"plnCmd": "u+HK",
-						"numCmd": "j.HK",
+						"numCmd": "j.HK (air)",
 						"startup": 10,
 						"active": 4,
 						"recovery": "~",
@@ -42896,7 +42896,7 @@
 				{
 						"moveName": "Tenmakujinkyaku",
 						"plnCmd": "Forward Jump > d+MK ",
-						"numCmd": "j > 2MK",
+						"numCmd": "9 > 2MK (air)",
 						"cmnCmd": "Divekick",
 						"startup": 16,
 						"active": "~",
