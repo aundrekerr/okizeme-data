@@ -42760,7 +42760,7 @@
 				{
 						"moveName": "jump LP",
 						"plnCmd": "u+LP",
-						"numCmd": "j.LP (air)",
+						"numCmd": "j.LP",
 						"startup": 4,
 						"active": 5,
 						"recovery": "~",
@@ -42781,7 +42781,7 @@
 				{
 						"moveName": "jump MP",
 						"plnCmd": "u+MP",
-						"numCmd": "j.MP (air)",
+						"numCmd": "j.MP",
 						"startup": 7,
 						"active": 5,
 						"recovery": "~",
@@ -42808,7 +42808,7 @@
 				{
 						"moveName": "jump HP",
 						"plnCmd": "u+HP",
-						"numCmd": "j.HP (air)",
+						"numCmd": "j.HP",
 						"startup": 8,
 						"active": 5,
 						"recovery": "~",
@@ -42830,7 +42830,7 @@
 				{
 						"moveName": "jump LK",
 						"plnCmd": "u+LK",
-						"numCmd": "j.LK (air)",
+						"numCmd": "j.LK",
 						"startup": 4,
 						"active": 5,
 						"recovery": "~",
@@ -42852,7 +42852,7 @@
 				{
 						"moveName": "jump MK",
 						"plnCmd": "u+MK",
-						"numCmd": "j.MK (air)",
+						"numCmd": "j.MK",
 						"startup": 8,
 						"active": 5,
 						"recovery": "~",
@@ -42874,7 +42874,7 @@
 				{
 						"moveName": "jump HK",
 						"plnCmd": "u+HK",
-						"numCmd": "j.HK (air)",
+						"numCmd": "j.HK",
 						"startup": 10,
 						"active": 4,
 						"recovery": "~",
