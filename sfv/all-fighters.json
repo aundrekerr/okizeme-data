@@ -821,7 +821,7 @@
 				{
 						"moveName": "Hungabee Parry",
 						"plnCmd": "Parry",
-						"numCmd": "Parry",
+						"numCmd": "MPMK (VS1)",
 						"cmnCmd": "Parry",
 						"startup": 4,
 						"active": 8,
@@ -1191,7 +1191,7 @@
 				{
 						"moveName": "Giant Flip LP",
 						"plnCmd": "hcb+LP",
-						"numCmd": "63214+LP",
+						"numCmd": "63214LP",
 						"cmnCmd": "LP Flip",
 						"startup": 23,
 						"active": "3*4",
@@ -1217,7 +1217,7 @@
 				{
 						"moveName": "Giant Flip MP",
 						"plnCmd": "hcb+MP",
-						"numCmd": "63214+MP",
+						"numCmd": "63214MP",
 						"cmnCmd": "MP Flip",
 						"startup": 33,
 						"active": "2*4",
@@ -1243,7 +1243,7 @@
 				{
 						"moveName": "Giant Flip HP",
 						"plnCmd": "hcb+HP",
-						"numCmd": "63214+HP",
+						"numCmd": "63214HP",
 						"cmnCmd": "HP Flip",
 						"startup": 36,
 						"active": "2*4",
@@ -1269,7 +1269,7 @@
 				{
 						"moveName": "Giant Flip EX",
 						"plnCmd": "hcb+PP",
-						"numCmd": "63214+PP",
+						"numCmd": "63214PP",
 						"cmnCmd": "EX Flip",
 						"startup": 9,
 						"active": "3(26)2(0)3",
@@ -1295,7 +1295,7 @@
 				{
 						"moveName": "Giant Flip EX Mash",
 						"plnCmd": "hcb+PP (mash)",
-						"numCmd": "63214+PP (mash)",
+						"numCmd": "63214PP (mash)",
 						"cmnCmd": "EX Flip mash",
 						"startup": 30,
 						"active": "4*2",
@@ -1657,7 +1657,7 @@
 				{
 						"moveName": "Nitro Blitz  > Nitro Hungabee Parry",
 						"plnCmd": "KK > Parry",
-						"numCmd": "5KK > Parry",
+						"numCmd": "5KK > (VS1)",
 						"cmnCmd": "Run Parry",
 						"startup": 4,
 						"active": 8,
@@ -1788,7 +1788,7 @@
 				{
 						"moveName": "EX Nitro Charge > EX Nitro Hungabee",
 						"plnCmd": "KKK > MP+MK",
-						"numCmd": "5KKK > MPMK",
+						"numCmd": "5KKK > MPMK (VS1)",
 						"cmnCmd": "EX Run Vskill",
 						"startup": "EX Run+2",
 						"active": 10,
@@ -1814,7 +1814,7 @@
 				{
 						"moveName": "EX Nitro Charge > EX Nitro Hungabee (Parry)",
 						"plnCmd": "KKK > Parry",
-						"numCmd": "5KKK > Parry",
+						"numCmd": "5KKK > (VS1)",
 						"cmnCmd": "EX Run Parry",
 						"startup": 4,
 						"active": 8,
@@ -1943,7 +1943,7 @@
 					{
 							"moveName": "stand HP (lvl 2)",
 							"plnCmd": "HP (lvl 2)",
-							"numCmd": "5HP (lvl 2)",
+							"numCmd": "5HP (hold)",
 							"startup": "30(44)",
 							"active": 4,
 							"recovery": 25,
@@ -1968,7 +1968,7 @@
 					{
 							"moveName": "stand HP (lvl 3)",
 							"plnCmd": "HP (lvl 3)",
-							"numCmd": "5HP (lvl 3)",
+							"numCmd": "5HP (hold)",
 							"startup": 45,
 							"active": 4,
 							"recovery": 25,
@@ -2169,7 +2169,7 @@
 					{
 							"moveName": "crouch HP (lvl 2)",
 							"plnCmd": "2HP (lvl 2)",
-							"numCmd": "2HP (lvl 2)",
+							"numCmd": "2HP (hold)",
 							"startup": 22,
 							"active": 5,
 							"recovery": 35,
@@ -2194,7 +2194,7 @@
 					{
 							"moveName": "crouch HP (lvl 3)",
 							"plnCmd": "2HP (lvl 3)",
-							"numCmd": "2HP (lvl 3)",
+							"numCmd": "2HP (hold)",
 							"startup": 40,
 							"active": 5,
 							"recovery": 35,
@@ -2519,7 +2519,7 @@
 					{
 							"moveName": "Abi Lift lvl 2",
 							"plnCmd": "f+HP (lvl 2)",
-							"numCmd": "6HP (lvl 2)",
+							"numCmd": "6HP (hold)",
 							"cmnCmd": "f+HP lvl 2",
 							"startup": 22,
 							"active": 5,
@@ -2545,7 +2545,7 @@
 					{
 							"moveName": "Abi Lift lvl 3",
 							"plnCmd": "f+HP (lvl 3)",
-							"numCmd": "6HP (lvl 3)",
+							"numCmd": "6HP (hold)",
 							"cmnCmd": "f+HP lvl 3",
 							"startup": 35,
 							"active": 5,
@@ -2623,7 +2623,7 @@
 					{
 							"moveName": "Abi Blaster lvl 2",
 							"plnCmd": "b+HP (lvl 2)",
-							"numCmd": "4HP (lvl 2)",
+							"numCmd": "4HP (hold)",
 							"cmnCmd": "b+HP lvl 2",
 							"startup": 17,
 							"active": 2,
@@ -2649,7 +2649,7 @@
 					{
 							"moveName": "Abi Blaster lvl 3",
 							"plnCmd": "b+HP (lvl 3)",
-							"numCmd": "4HP (lvl 3)",
+							"numCmd": "4HP (hold)",
 							"cmnCmd": "b+HP lvl 3",
 							"startup": 32,
 							"active": 2,
@@ -2960,7 +2960,7 @@
 					{
 							"moveName": "Hungabee Parry",
 							"plnCmd": "Parry",
-							"numCmd": "Parry",
+							"numCmd": "MPMK (VS1)",
 							"cmnCmd": "Parry",
 							"startup": 4,
 							"active": 8,
@@ -3238,7 +3238,7 @@
 					{
 							"moveName": "Giant Flip LP",
 							"plnCmd": "hcb+LP",
-							"numCmd": "63214+LP",
+							"numCmd": "63214LP",
 							"cmnCmd": "LP Flip",
 							"startup": 23,
 							"active": "3*4",
@@ -3264,7 +3264,7 @@
 					{
 							"moveName": "Giant Flip MP",
 							"plnCmd": "hcb+MP",
-							"numCmd": "63214+MP",
+							"numCmd": "63214MP",
 							"cmnCmd": "MP Flip",
 							"startup": 33,
 							"active": "2*4",
@@ -3290,7 +3290,7 @@
 					{
 							"moveName": "Giant Flip HP",
 							"plnCmd": "hcb+HP",
-							"numCmd": "63214+HP",
+							"numCmd": "63214HP",
 							"cmnCmd": "HP Flip",
 							"startup": 36,
 							"active": "2*4",
@@ -3316,7 +3316,7 @@
 					{
 							"moveName": "Giant Flip EX",
 							"plnCmd": "hcb+PP",
-							"numCmd": "63214+PP",
+							"numCmd": "63214PP",
 							"cmnCmd": "EX Flip",
 							"startup": "9*34",
 							"active": "3(22)2(0)3",
@@ -3342,7 +3342,7 @@
 					{
 							"moveName": "Giant Flip EX Mash",
 							"plnCmd": "hcb+PP (mash)",
-							"numCmd": "63214+PP (mash)",
+							"numCmd": "63214PP (mash)",
 							"cmnCmd": "EX Flip mash",
 							"startup": 30,
 							"active": "4*2",
@@ -3493,7 +3493,7 @@
 							"moveButton": "2K"
 					},
 					{
-							"moveName": "Nitro Blitz ",
+							"moveName": "Nitro Blitz",
 							"plnCmd": "KK",
 							"numCmd": "5KK",
 							"cmnCmd": "Run",
@@ -3570,7 +3570,7 @@
 							"moveMotion": "B"
 					},
 					{
-							"moveName": "Nitro Blitz  > Dynamite Punch",
+							"moveName": "Nitro Blitz > Dynamite Punch",
 							"plnCmd": "KK > P",
 							"numCmd": "5KK > P",
 							"cmnCmd": "Run Punch",
@@ -3596,7 +3596,7 @@
 							"moveButton": "1P"
 					},
 					{
-							"moveName": "Nitro Blitz  > Avalanche Press",
+							"moveName": "Nitro Blitz > Avalanche Press",
 							"plnCmd": "KK > K",
 							"numCmd": "5KK > K",
 							"cmnCmd": "Run Overhead",
@@ -3650,7 +3650,7 @@
 					{
 							"moveName": "Nitro Blitz  > Nitro Hungabee High",
 							"plnCmd": "KK > MP+MK",
-							"numCmd": "KK > MPMK",
+							"numCmd": "KK > MPMK (VS1)",
 							"cmnCmd": "Run Vskill high",
 							"startup": "Run+3",
 							"active": 10,
@@ -3676,7 +3676,7 @@
 					{
 							"moveName": "Nitro Blitz  > Nitro Hungabee Low",
 							"plnCmd": "KK > d+MP+MK",
-							"numCmd": "KK > 2MPMK",
+							"numCmd": "KK > 2MPMK (VS1)",
 							"cmnCmd": "Run Vskill low",
 							"startup": "Run+3",
 							"active": 10,
@@ -3702,7 +3702,7 @@
 					{
 							"moveName": "Nitro Blitz  > Nitro Hungabee Parry",
 							"plnCmd": "KK > Parry",
-							"numCmd": "5KK > Parry",
+							"numCmd": "5KK > MPMK (VS1)",
 							"cmnCmd": "Run Parry",
 							"startup": 4,
 							"active": 8,
@@ -3831,7 +3831,7 @@
 					{
 							"moveName": "EX Nitro Charge > EX Nitro Hungabee",
 							"plnCmd": "KKK > MP+MK",
-							"numCmd": "5KKK > MPMK",
+							"numCmd": "5KKK > MPMK (VS1)",
 							"cmnCmd": "EX Run Vskill",
 							"startup": "EX Run+2",
 							"active": 10,
@@ -3857,7 +3857,7 @@
 					{
 							"moveName": "EX Nitro Charge > EX Nitro Hungabee (Parry)",
 							"plnCmd": "KKK > Parry",
-							"numCmd": "5KKK > Parry",
+							"numCmd": "5KKK > MPMK (VS1)",
 							"cmnCmd": "EX Run Parry",
 							"startup": 4,
 							"active": 8,
@@ -3910,7 +3910,7 @@
 					{
 							"moveName": "Metro Crash",
 							"plnCmd": "HP+HK (lvl1)",
-							"numCmd": "HPHK (lvl1)",
+							"numCmd": "HPHK (VT2)",
 							"cmnCmd": "VTrigger 2 Charge",
 							"startup": "10+23",
 							"active": 10,
@@ -3936,7 +3936,7 @@
 					{
 							"moveName": "Metro Crash lvl 2",
 							"plnCmd": "HP+HK (lvl2)",
-							"numCmd": "HPHK (lvl2)",
+							"numCmd": "HPHK (VT2)",
 							"cmnCmd": "VTrigger 2 Charge lvl 2",
 							"startup": "27+23",
 							"active": 13,
@@ -3962,7 +3962,7 @@
 					{
 							"moveName": "Metro Crash lvl 3",
 							"plnCmd": "HP+HK (lvl3)",
-							"numCmd": "HPHK (lvl3)",
+							"numCmd": "HPHK (VT2)",
 							"cmnCmd": "VTrigger 2 Charge lvl 3",
 							"startup": 67,
 							"active": 16,
@@ -28419,7 +28419,7 @@
 				{
 						"moveName": "Psycho Smash",
 						"plnCmd": "d+MP+MK (VS2)",
-						"numCmd": "2MPMK",
+						"numCmd": "2MPMK (VS2)",
 						"cmnCmd": "Air VSkill 2",
 						"startup": 11,
 						"active": 5,
@@ -28445,7 +28445,7 @@
 				{
 						"moveName": "Psycho Smash (hold)",
 						"plnCmd": "d+MP+MK (VS2) (hold)",
-						"numCmd": "2MPMK (hold)",
+						"numCmd": "2MPMK (VS2) (hold)",
 						"cmnCmd": "Air VSkill 2 (hold)",
 						"startup": 31,
 						"active": 5,
@@ -28631,7 +28631,7 @@
 				{
 						"moveName": "Psycho Shot",
 						"plnCmd": "P (after f+MP)",
-						"numCmd": "5P (after 6MP)",
+						"numCmd": "6MP > P",
 						"cmnCmd": "Fireball",
 						"startup": "13+13",
 						"active": "~",
@@ -28657,7 +28657,7 @@
 				{
 						"moveName": "EX Psycho Shot",
 						"plnCmd": "PP (after f+MP)",
-						"numCmd": "5PP (after 6MP)",
+						"numCmd": "6MP > PP",
 						"cmnCmd": "EX Fireball",
 						"startup": "13+13",
 						"active": "~",
@@ -28789,7 +28789,7 @@
 				{
 						"moveName": "Psycho Splash",
 						"plnCmd": "P (after KK)",
-						"numCmd": "5P (after 5KK)",
+						"numCmd": "5KK > P",
 						"cmnCmd": "Dive",
 						"startup": "23+14",
 						"active": "~",
@@ -28869,7 +28869,7 @@
 					{
 							"moveName": "Ultra Snatcher - Ground",
 							"plnCmd": "HP+HK (VT2)",
-							"numCmd": "HPHK",
+							"numCmd": "HPHK (VT2)",
 							"cmnCmd": "VTrigger 2 Snatcher (Ground)",
 							"startup": "26(22)",
 							"active": 8,
@@ -28895,7 +28895,7 @@
 					{
 							"moveName": "Ultra Snatcher - Air",
 							"plnCmd": "d+HP+HK",
-							"numCmd": "2HPHK",
+							"numCmd": "2HPHK (VT2)",
 							"cmnCmd": "VTrigger 2 Snatcher (Air)",
 							"startup": "16(9)",
 							"active": 7,
@@ -48696,7 +48696,7 @@
 				{
 						"moveName": "Icicle Stamp",
 						"plnCmd": "d+MK (air)",
-						"numCmd": "2MK (air)",
+						"numCmd": "j.2MK",
 						"cmnCmd": "Double Jump",
 						"startup": 13,
 						"active": "~",
@@ -48968,7 +48968,7 @@
 				{
 						"moveName": "Avalanche Lock",
 						"plnCmd": "LP+LK (air)",
-						"numCmd": "LPLK (air)",
+						"numCmd": "(air) LPLK",
 						"cmnCmd": "Air Throw",
 						"startup": 5,
 						"active": 2,
@@ -49358,7 +49358,7 @@
 				{
 						"moveName": "Parabellum LP",
 						"plnCmd": "qcf+LP or mash LP",
-						"numCmd": "236LP or mash LP",
+						"numCmd": "236LP or LP (mash)",
 						"cmnCmd": "LP Hands",
 						"startup": 9,
 						"active": "2(5)2(5)2(5)2",
@@ -49384,7 +49384,7 @@
 				{
 						"moveName": "Parabellum MP",
 						"plnCmd": "qcf+MP or mash MP",
-						"numCmd": "236MP or mash MP",
+						"numCmd": "236MP or MP (mash)",
 						"cmnCmd": "MP Hands",
 						"startup": 14,
 						"active": "2(5)2(5)2(5)2(5)2",
@@ -49410,7 +49410,7 @@
 				{
 						"moveName": "Parabellum HP",
 						"plnCmd": "qcf+HP or mash HP",
-						"numCmd": "236HP or mash HP",
+						"numCmd": "236HP or HP (mash)",
 						"cmnCmd": "HP Hands",
 						"startup": 18,
 						"active": "2(5)2(5)2(5)2(5)2(30)2",
@@ -49436,7 +49436,7 @@
 				{
 						"moveName": "Parabellum EX",
 						"plnCmd": "qcf+PP or mash PP",
-						"numCmd": "236PP or mash PP",
+						"numCmd": "236PP or PP (mash)",
 						"cmnCmd": "EX Hands",
 						"startup": 9,
 						"active": "2(5)2(5)2(5)2(5)2",
@@ -49747,7 +49747,7 @@
 						"nonHittingMove": "true"
 				},
 				{
-						"moveName": " > Silver Edge",
+						"moveName": " Silver Edge",
 						"plnCmd": "qcb+LK > P",
 						"numCmd": "214LK > P",
 						"cmnCmd": "Step > Dash Punch",
@@ -49800,7 +49800,7 @@
 						"nonHittingMove": "true"
 				},
 				{
-						"moveName": " > Cold Low",
+						"moveName": "Cold Low",
 						"plnCmd": "qcb+MK > d+LK > d+HK",
 						"numCmd": "214MK > 2LK > 2HK",
 						"cmnCmd": "MK Step > d+LK > d+HK",
@@ -49830,7 +49830,7 @@
 						"moveButton": "HK"
 				},
 				{
-						"moveName": " > Brinicle",
+						"moveName": "Brinicle",
 						"plnCmd": "qcb+MK > d+LK > d+HP",
 						"numCmd": "214MK > 2LK > 2HP",
 						"cmnCmd": "MK Step > d+LK > d+HP",
@@ -49860,7 +49860,7 @@
 						"moveButton": "HP"
 				},
 				{
-						"moveName": " > Snow Grain",
+						"moveName": "Snow Grain",
 						"plnCmd": "qcb+MK > d+MP > HP",
 						"numCmd": "214MK > 2MP > 5HP",
 						"cmnCmd": "MK Step > d+MP > HP",
@@ -49917,7 +49917,7 @@
 						"nonHittingMove": "true"
 				},
 				{
-						"moveName": " > White Spear",
+						"moveName": "White Spear",
 						"plnCmd": "qcb+HK > LK > MK",
 						"numCmd": "214HK > 5LK > 5MK",
 						"cmnCmd": "HK Step > LK > MK",
@@ -49970,7 +49970,7 @@
 						"nonHittingMove": "true"
 				},
 				{
-						"moveName": " > Silver Edge EX",
+						"moveName": "Silver Edge EX",
 						"plnCmd": "qcb+LKMK > P",
 						"numCmd": "214LKMK > P",
 						"cmnCmd": "EX Dash Punch",
@@ -50080,7 +50080,7 @@
 					{
 							"moveName": "Inside Slash",
 							"plnCmd": "MP+MK",
-							"numCmd": "MPMK Slash",
+							"numCmd": "MPMK (VS1))",
 							"cmnCmd": "VSkill 1",
 							"startup": 15,
 							"active": 2,
@@ -50449,7 +50449,7 @@
 							"extraInfo": "[\"Freezes opponent's stun meter on hit and does not wear off unless the opponent gets a clean hit on Kolin\", \"Hard Knockdown (+0)\"]"
 					},
 					{
-							"moveName": " > Brinicle",
+							"moveName": "Brinicle",
 							"plnCmd": "qcb+MK > d+LK > d+HP",
 							"numCmd": "214MK > 2LK > 2HP",
 							"cmnCmd": "MK Step > d+LK > d+HP",
@@ -50475,7 +50475,7 @@
 							"moveButton": "HP"
 					},
 					{
-							"moveName": " > Snow Grain",
+							"moveName": "Snow Grain",
 							"plnCmd": "qcb+MK > d+MP > HP",
 							"numCmd": "214MK > 2MP > 5HP",
 							"cmnCmd": "MK Step > d+MP > HP",
@@ -50835,7 +50835,7 @@
 					{
 							"moveName": "Frost Edge",
 							"plnCmd": "HP+HK (VT2)",
-							"numCmd": "HPHK",
+							"numCmd": "HPHK (VT2)",
 							"cmnCmd": "VTrigger 2 attack",
 							"startup": 13,
 							"active": 9,
@@ -50861,7 +50861,7 @@
 					{
 							"moveName": "Reverse Javelin",
 							"plnCmd": "HP+HK (slide)",
-							"numCmd": "HPHK (slide)",
+							"numCmd": "HPHK (VT2)",
 							"cmnCmd": "VTrigger 2 slide attack",
 							"startup": "10+5",
 							"active": 9,
@@ -50887,7 +50887,7 @@
 					{
 							"moveName": "Reverse Javelin 2nd",
 							"plnCmd": "HP+HK (follow-up)",
-							"numCmd": "HPHK (follow-up)",
+							"numCmd": "HPHK (VT2)",
 							"cmnCmd": "VTrigger 2 slide attack 2nd",
 							"startup": 5,
 							"active": 9,
