@@ -65712,7 +65712,7 @@
 				{
 						"moveName": "Slap & Smash",
 						"plnCmd": "MP > HP (air)",
-						"numCmd": "(air) 8MP > 8HP",
+						"numCmd": "(air) MP > HP",
 						"cmnCmd": "j.MP > j.HP",
 						"startup": "6+9",
 						"active": 3,
@@ -65738,7 +65738,7 @@
 				{
 						"moveName": "Slap & Slash",
 						"plnCmd": "MP > f+HP (air)",
-						"numCmd": "8MP > 9 > 6HP (air)",
+						"numCmd": "9 > MP > 6HP",
 						"cmnCmd": "j.MP > f+HP (fwd jump)",
 						"startup": "6+9",
 						"active": 7,
