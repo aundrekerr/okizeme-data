@@ -65689,7 +65689,7 @@
 				{
 						"moveName": "Whiplash",
 						"plnCmd": "f+HP (fwd jump)",
-						"numCmd": "96HP",
+						"numCmd": "9 > 6HP (air)",
 						"cmnCmd": "f+HP (fwd jump)",
 						"startup": 13,
 						"active": 4,
@@ -65712,7 +65712,7 @@
 				{
 						"moveName": "Slap & Smash",
 						"plnCmd": "MP > HP (air)",
-						"numCmd": "8MP > 8HP",
+						"numCmd": "(air) 8MP > 8HP",
 						"cmnCmd": "j.MP > j.HP",
 						"startup": "6+9",
 						"active": 3,
@@ -65737,8 +65737,8 @@
 				},
 				{
 						"moveName": "Slap & Slash",
-						"plnCmd": "MP> f+HP (air)",
-						"numCmd": "8MP > 96+HP",
+						"plnCmd": "MP > f+HP (air)",
+						"numCmd": "8MP > 9 > 6HP (air)",
 						"cmnCmd": "j.MP > f+HP (fwd jump)",
 						"startup": "6+9",
 						"active": 7,
@@ -66105,7 +66105,7 @@
 				{
 						"moveName": "Heart Raid LP Release",
 						"plnCmd": "qcb+LP > Release",
-						"numCmd": "214LP > Release",
+						"numCmd": "214LP > (release)",
 						"cmnCmd": "LP Whip Stance > Release",
 						"startup": 9,
 						"active": 2,
@@ -66152,7 +66152,7 @@
 				{
 						"moveName": "Heart Raid MP Release",
 						"plnCmd": "qcb+MP > Release",
-						"numCmd": "214MP > Release",
+						"numCmd": "214MP > (release)",
 						"cmnCmd": "MP Whip Stance > Release",
 						"startup": 9,
 						"active": 2,
@@ -66202,7 +66202,7 @@
 				{
 						"moveName": "Heart Raid HP Release",
 						"plnCmd": "qcb+HP > Release",
-						"numCmd": "214HP > Release",
+						"numCmd": "214HP > (release)",
 						"cmnCmd": "HP Whip Stance > Release",
 						"startup": 10,
 						"active": 2,
