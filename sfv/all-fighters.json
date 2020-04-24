@@ -1605,7 +1605,7 @@
 				{
 						"moveName": "Nitro Blitz  > Nitro Hungabee High",
 						"plnCmd": "KK > MP+MK",
-						"numCmd": "KK > MPMK",
+						"numCmd": "KK > MPMK (VS1)",
 						"cmnCmd": "Run Vskill high",
 						"startup": "Run+3",
 						"active": 10,
@@ -1631,7 +1631,7 @@
 				{
 						"moveName": "Nitro Blitz  > Nitro Hungabee Low",
 						"plnCmd": "KK > d+MP+MK",
-						"numCmd": "KK > 2MPMK",
+						"numCmd": "KK > 2MPMK (VS1)",
 						"cmnCmd": "Run Vskill low",
 						"startup": "Run+3",
 						"active": 10,
@@ -1657,7 +1657,7 @@
 				{
 						"moveName": "Nitro Blitz  > Nitro Hungabee Parry",
 						"plnCmd": "KK > Parry",
-						"numCmd": "5KK > (VS1)",
+						"numCmd": "5KK > MPMK (VS1)",
 						"cmnCmd": "Run Parry",
 						"startup": 4,
 						"active": 8,
@@ -8386,7 +8386,7 @@
 				{
 						"moveName": "Power Drop",
 						"plnCmd": "hcb+P (opp. turned)",
-						"numCmd": "63214P (opp. turned)",
+						"numCmd": "236HP > 63214P (opp. turned)",
 						"cmnCmd": "Power Drop",
 						"startup": "5",
 						"active": "2",
@@ -8706,7 +8706,7 @@
 				{
 						"moveName": "Sledge Hammer",
 						"plnCmd": "HP+HK",
-						"numCmd": "HPHK",
+						"numCmd": "HPHK (VT1)",
 						"cmnCmd": "VT1 Attack",
 						"startup": "20(18)",
 						"active": "2",
@@ -8734,7 +8734,7 @@
 				{
 						"moveName": "Sledge Hammer (hold)",
 						"plnCmd": "Hold HP+HK",
-						"numCmd": "HPHK (hold)",
+						"numCmd": "HPHK (VT1) (hold)",
 						"cmnCmd": "VT1 Attack (hold)",
 						"startup": "68",
 						"active": "2",
@@ -8762,7 +8762,7 @@
 				{
 						"moveName": "Sledge Hammer (parry)",
 						"plnCmd": "HP+HK",
-						"numCmd": "HPHK",
+						"numCmd": "HPHK (VT1)",
 						"cmnCmd": "Parry",
 						"startup": "2(1)",
 						"active": "~",
@@ -8790,7 +8790,7 @@
 				{
 						"moveName": "Flying DDT",
 						"plnCmd": "HP+HK",
-						"numCmd": "HPHK",
+						"numCmd": "HPHK (VT2)",
 						"cmnCmd": "Flying Grab",
 						"startup": "22(15)",
 						"active": 3,
@@ -8816,7 +8816,7 @@
 				{
 						"moveName": "Choke Sleeper",
 						"plnCmd": "HP+HK",
-						"numCmd": "HPHK",
+						"numCmd": "236HP > HPHK (VT2)",
 						"cmnCmd": "Chokehold",
 						"startup": 5,
 						"active": 2,
@@ -10109,7 +10109,7 @@
 				{
 						"moveName": "Dash Straight LP (V-Skill 2)",
 						"plnCmd": "b,f+LP (VS2)",
-						"numCmd": "46LP (VS2)",
+						"numCmd": "46LP > MPMK (VS2)",
 						"cmnCmd": "LP Dash Punch (VS2)",
 						"startup": "10(12)",
 						"active": 4,
@@ -10138,7 +10138,7 @@
 				{
 						"moveName": "Dash Straight MP (V-Skill 2)",
 						"plnCmd": "b,f+MP (VS2)",
-						"numCmd": "46MP (VS2)",
+						"numCmd": "46MP > MPMK (VS2)",
 						"cmnCmd": "MP Dash Punch (VS2)",
 						"startup": "12(16)",
 						"active": 4,
@@ -10167,7 +10167,7 @@
 				{
 						"moveName": "Dash Straight HP (V-Skill 2)",
 						"plnCmd": "b,f+HP (VS2)",
-						"numCmd": "46HP (VS2)",
+						"numCmd": "46HP > MPMK (VS2)",
 						"cmnCmd": "HP Dash Punch (VS2)",
 						"startup": "19(25)",
 						"active": 4,
@@ -10196,7 +10196,7 @@
 				{
 						"moveName": "Dash Straight EX (V-Skill 2)",
 						"plnCmd": "b,f+PP (VS2)",
-						"numCmd": "46PP (VS2)",
+						"numCmd": "46PP > MPMK (VS2)",
 						"cmnCmd": "EX Dash Punch (VS2)",
 						"startup": "9(22)",
 						"active": 6,
@@ -10459,7 +10459,7 @@
 				{
 						"moveName": "TAP lvl 1",
 						"plnCmd": "Hold and Release 2 P or K",
-						"numCmd": "Hold and Release 2 P or K lvl 1",
+						"numCmd": "(hold) PP or KK > (release)",
 						"cmnCmd": "TAP 1",
 						"startup": "26(30)",
 						"active": 2,
@@ -10487,7 +10487,7 @@
 				{
 						"moveName": "TAP lvl 2",
 						"plnCmd": "Hold and Release 2 P or K",
-						"numCmd": "Hold and Release 2 P or K lvl 2",
+						"numCmd": "(hold) PP or KK > (release)",
 						"cmnCmd": "TAP 2",
 						"startup": "26(30)",
 						"active": 2,
@@ -10515,7 +10515,7 @@
 				{
 						"moveName": "TAP lvl 3",
 						"plnCmd": "Hold and Release 2 P or K",
-						"numCmd": "Hold and Release 2 P or K lvl 3",
+						"numCmd": "(hold) PP or KK > (release)",
 						"cmnCmd": "TAP 3",
 						"startup": "26(30)",
 						"active": 2,
@@ -10543,7 +10543,7 @@
 				{
 						"moveName": "TAP lvl 4",
 						"plnCmd": "Hold and Release 2 P or K",
-						"numCmd": "Hold and Release 2 P or K lvl 4",
+						"numCmd": "(hold) PP or KK > (release)",
 						"cmnCmd": "TAP 4",
 						"startup": "26(30)",
 						"active": 2,
@@ -10571,7 +10571,7 @@
 				{
 						"moveName": "TAP lvl 5",
 						"plnCmd": "Hold and Release 2 P or K",
-						"numCmd": "Hold and Release 2 P or K",
+						"numCmd": "(hold) PP or KK > (release)",
 						"cmnCmd": "TAP 5",
 						"startup": "26(30)",
 						"active": 2,
@@ -10599,7 +10599,7 @@
 				{
 						"moveName": "TAP lvl 6",
 						"plnCmd": "Hold and Release 2 P or K",
-						"numCmd": "Hold and Release 2 P or K lvl 6",
+						"numCmd": "(hold) PP or KK > (release)",
 						"cmnCmd": "TAP 6",
 						"startup": "26(30)",
 						"active": 2,
@@ -10627,7 +10627,7 @@
 				{
 						"moveName": "TAP lvl 7",
 						"plnCmd": "Hold and Release 2 P or K",
-						"numCmd": "Hold and Release 2 P or K lvl 7",
+						"numCmd": "(hold) PP or KK > (release)",
 						"cmnCmd": "TAP 7",
 						"startup": "26(30)",
 						"active": 2,
@@ -10655,7 +10655,7 @@
 				{
 						"moveName": "TAP lvl 8",
 						"plnCmd": "Hold and Release 2 P or K",
-						"numCmd": "Hold and Release 2 P or K lvl 8",
+						"numCmd": "(hold) PP or KK > (release)",
 						"cmnCmd": "TAP 8",
 						"startup": "26(30)",
 						"active": 2,
@@ -10683,7 +10683,7 @@
 				{
 						"moveName": "TAP lvl 9",
 						"plnCmd": "Hold and Release 2 P or K",
-						"numCmd": "Hold and Release 2 P or K lvl 9",
+						"numCmd": "(hold) PP or KK > (release)",
 						"cmnCmd": "TAP 9",
 						"startup": "26(30)",
 						"active": 2,
@@ -10711,7 +10711,7 @@
 				{
 						"moveName": "TAP lvl 10",
 						"plnCmd": "Hold and Release 2 P or K",
-						"numCmd": "Hold and Release 2 P or K lvl 10",
+						"numCmd": "(hold) PP or KK > (release)",
 						"cmnCmd": "TAP Max",
 						"startup": "26(30)",
 						"active": 2,
@@ -10767,7 +10767,7 @@
 				{
 						"moveName": "Charging Buffalo (stage 1) (vt)",
 						"plnCmd": "f+P after charge attack",
-						"numCmd": "6P after charge attack",
+						"numCmd": "46P or 46K > 6P",
 						"cmnCmd": "VT Punch Rekka 1",
 						"startup": 12,
 						"active": 6,
@@ -10799,7 +10799,7 @@
 				{
 						"moveName": "Charging Buffalo (stage 2) (vt)",
 						"plnCmd": "f+P after charge attack",
-						"numCmd": "6P after charge attack",
+						"numCmd": "46P or 46K > 6P",
 						"cmnCmd": "VT Punch Rekka 2",
 						"startup": 12,
 						"active": 6,
@@ -10831,7 +10831,7 @@
 				{
 						"moveName": "Charging Buffalo (stage 3) (vt)",
 						"plnCmd": "f+P after charge attack",
-						"numCmd": "6P after charge attack",
+						"numCmd": "46P or 46K > 6P",
 						"cmnCmd": "VT Punch Rekka 3",
 						"startup": 12,
 						"active": 6,
@@ -10863,7 +10863,7 @@
 				{
 						"moveName": "Final Charging Buffalo (vt)",
 						"plnCmd": "f+P after charge attack",
-						"numCmd": "6P after charge attack",
+						"numCmd": "46P or 46K > 6P",
 						"cmnCmd": "VT Punch Rekka Final",
 						"startup": 17,
 						"active": 6,
@@ -10889,7 +10889,7 @@
 				{
 						"moveName": "EX Charging Buffalo (stage 1) (vt)",
 						"plnCmd": "f+PP after charge attack",
-						"numCmd": "6PP after charge attack",
+						"numCmd": "46P or 46K > 6P",
 						"cmnCmd": "EX VT Punch Rekka",
 						"startup": 11,
 						"active": 6,
@@ -10921,7 +10921,7 @@
 				{
 						"moveName": "EX Final Charging Buffalo (vt)",
 						"plnCmd": "f+PP after charge attack",
-						"numCmd": "6PP after charge attack",
+						"numCmd": "46P or 46K > 6PP",
 						"cmnCmd": "EX VT Punch Rekka Final",
 						"startup": 11,
 						"active": 6,
@@ -10947,7 +10947,7 @@
 				{
 						"moveName": "Charging Buffalo (stage 1) (V-Skill 2) (vt)",
 						"plnCmd": "f+P after charge attack",
-						"numCmd": "6P after charge attack",
+						"numCmd": "46P or 46K > 6P",
 						"cmnCmd": "VT Punch Rekka 1 (VS2)",
 						"startup": 12,
 						"active": 6,
@@ -10973,7 +10973,7 @@
 				{
 						"moveName": "Charging Buffalo (stage 2) (V-Skill 2) (vt)",
 						"plnCmd": "f+P after charge attack",
-						"numCmd": "6P after charge attack",
+						"numCmd": "46P or 46K > 6P",
 						"cmnCmd": "VT Punch Rekka 2 (VS2)",
 						"startup": 12,
 						"active": 6,
@@ -10999,7 +10999,7 @@
 				{
 						"moveName": "Charging Buffalo (stage 3) (V-Skill 2) (vt)",
 						"plnCmd": "f+P after charge attack",
-						"numCmd": "6P after charge attack",
+						"numCmd": "46P or 46K > 6P",
 						"cmnCmd": "VT Punch Rekka 3 (VS2)",
 						"startup": 12,
 						"active": 6,
@@ -11025,7 +11025,7 @@
 				{
 						"moveName": "Final Charging Buffalo (V-Skill 2) (vt)",
 						"plnCmd": "f+P after charge attack",
-						"numCmd": "6P after charge attack",
+						"numCmd": "46P or 46K > 6P",
 						"cmnCmd": "VT Punch Rekka Final (VS2)",
 						"startup": 17,
 						"active": 6,
@@ -11051,7 +11051,7 @@
 				{
 						"moveName": "EX Charging Buffalo (stage 1) (V-Skill 2)) (vt)",
 						"plnCmd": "f+PP after charge attack",
-						"numCmd": "6PP after charge attack",
+						"numCmd": "46P or 46K > 6PP",
 						"cmnCmd": "EX VT Punch Rekka (VS2)",
 						"startup": 11,
 						"active": 6,
@@ -11077,7 +11077,7 @@
 				{
 						"moveName": "EX Final Charging Buffalo (V-Skill 2) (vt)",
 						"plnCmd": "f+PP after charge attack",
-						"numCmd": "6PP after charge attack",
+						"numCmd": "46P or 46K > 6PP",
 						"cmnCmd": "EX VT Punch Rekka Final (VS2)",
 						"startup": 11,
 						"active": 6,
@@ -11103,7 +11103,7 @@
 				{
 						"moveName": "Bursting Buffalo (stage 1) (vt)",
 						"plnCmd": "f+K after charge attack",
-						"numCmd": "6K after charge attack",
+						"numCmd": "46P or 46K > 6K",
 						"cmnCmd": "VT Kick Rekka 1",
 						"startup": 14,
 						"active": 5,
@@ -11135,7 +11135,7 @@
 				{
 						"moveName": "Bursting Buffalo (stage 2) (vt)",
 						"plnCmd": "f+K after charge attack",
-						"numCmd": "6K after charge attack",
+						"numCmd": "46P or 46K > 6K",
 						"cmnCmd": "VT Kick Rekka 2",
 						"startup": 14,
 						"active": 5,
@@ -11167,7 +11167,7 @@
 				{
 						"moveName": "Bursting Buffalo (stage 3) (vt)",
 						"plnCmd": "f+K after charge attack",
-						"numCmd": "6K after charge attack",
+						"numCmd": "46P or 46K > 6K",
 						"cmnCmd": "VT Kick Rekka 3",
 						"startup": 14,
 						"active": 5,
@@ -11199,7 +11199,7 @@
 				{
 						"moveName": "Final Bursting Buffalo (vt)",
 						"plnCmd": "f+K after charge attack",
-						"numCmd": "6K after charge attack",
+						"numCmd": "46P or 46K > 6K",
 						"cmnCmd": "VT Kick Rekka Final",
 						"startup": 17,
 						"active": 5,
@@ -11225,7 +11225,7 @@
 				{
 						"moveName": "EX Bursting Buffalo (stage 1) (vt)",
 						"plnCmd": "f+KK after charge attack",
-						"numCmd": "6KK after charge attack",
+						"numCmd": "46P or 46K > 6K",
 						"cmnCmd": "EX VT Kick Rekka",
 						"startup": 12,
 						"active": 5,
@@ -11257,7 +11257,7 @@
 				{
 						"moveName": "EX Final Bursting Buffalo (vt)",
 						"plnCmd": "f+KK after charge attack",
-						"numCmd": "6KK after charge attack",
+						"numCmd": "46P or 46K > 6K",
 						"cmnCmd": "EX VT Kick Rekka Final",
 						"startup": 12,
 						"active": 5,
@@ -11283,9 +11283,9 @@
 			],
 			"trigger2": [
 				{
-						"moveName": "B3",
+						"moveName": "No Mercy",
 						"plnCmd": "HP+HK",
-						"numCmd": "HPHK",
+						"numCmd": "HPHK (VT2)",
 						"cmnCmd": "Command Grab",
 						"startup": 7,
 						"active": 2,
@@ -37235,8 +37235,8 @@
 				},
 				{
 						"moveName": "Knee Bazooka",
-						"plnCmd": "b or f+LK",
-						"numCmd": "4 or 6+LK",
+						"plnCmd": "b or fLK",
+						"numCmd": "4 or 6 LK",
 						"cmnCmd": "Knee",
 						"startup": 8,
 						"active": 5,
@@ -37263,7 +37263,7 @@
 				{
 						"moveName": "Rolling Sobat",
 						"plnCmd": "b or f+MK",
-						"numCmd": "4 or 6+MK",
+						"numCmd": "4 or 6 MK",
 						"cmnCmd": "Sobat Kick",
 						"startup": 12,
 						"active": 2,
@@ -38177,7 +38177,7 @@
 					{
 							"moveName": "Sonic Break",
 							"plnCmd": "b|n|f+HPHK",
-							"numCmd": "4or5or6+HPHK",
+							"numCmd": "4 or 5 or 6 HPHK (VT1)",
 							"cmnCmd": "VT Sonic Boom",
 							"startup": 10,
 							"active": "~",
@@ -38200,7 +38200,7 @@
 					{
 							"moveName": "Sonic Break 2nd",
 							"plnCmd": "1P",
-							"numCmd": "1P",
+							"numCmd": "P",
 							"cmnCmd": "VT Sonic Boom 2ndary",
 							"startup": 10,
 							"active": "~",
@@ -38223,7 +38223,7 @@
 					{
 							"moveName": "EX Sonic Break",
 							"plnCmd": "1P",
-							"numCmd": "1P",
+							"numCmd": "46PP > P",
 							"cmnCmd": "VT EX Sonic Boom",
 							"startup": 10,
 							"active": "~",
@@ -39003,7 +39003,7 @@
 				{
 						"moveName": "Tobikura",
 						"plnCmd": "j+LP > j+MK (air)",
-						"numCmd": "j.LP > j.MK (air)",
+						"numCmd": "j.LP > MK",
 						"cmnCmd": "j+LP > j+MK (air)",
 						"startup": "4+4",
 						"active": "6",
@@ -39030,7 +39030,7 @@
 				{
 						"moveName": "Aoji",
 						"plnCmd": "j+HP> j+HK (air)",
-						"numCmd": "j.HP> j.HK (air)",
+						"numCmd": "j.HP > HK",
 						"cmnCmd": "j+HP> j+HK (air)",
 						"startup": "9+5",
 						"active": "4",
@@ -39587,7 +39587,7 @@
 				{
 						"moveName": "Rokushaku Horokudama",
 						"plnCmd": "b or n or f + HP+HK",
-						"numCmd": "4or5or6HPHK",
+						"numCmd": "4 or 5 or 6 HPHK (VT1)",
 						"cmnCmd": "VTrigger 1 (1st Bomb)",
 						"startup": "1",
 						"active": "~",
@@ -39605,7 +39605,7 @@
 						"airmove": "false",
 						"followUp": "false",
 						"projectile": "true",
-						"extraInfo": "[\"b+VTrigger: 209 frame timer\", \"n+VTrigger: 89 frame timer\", \"f+VTrigger: 329 frame timer\", \"Can be detonated using EX Kunai doing 40 extra damage (160)\", \"Bombs can be knocked around by either characters striking it\", \"Bombs leave opponent in a limited juggle state\", \"Bombs can OTG\",]",
+						"extraInfo": "[\"b+VTrigger: 209 frame timer\", \"n+VTrigger: 89 frame timer\", \"f+VTrigger: 329 frame timer\", \"Can be detonated using EX Kunai doing 40 extra damage (160)\", \"Bombs can be knocked around by either characters striking it\", \"Bombs leave opponent in a limited juggle state\", \"Bombs can OTG\"]",
 						"meterGain": "?",
 						"moveType": "vtrigger",
 						"moveMotion": "N",
@@ -39615,7 +39615,7 @@
 				{
 						"moveName": "Rokushaku Horokudama 2nd",
 						"plnCmd": "b or n or f + HP+HK",
-						"numCmd": "4or5or6HPHK",
+						"numCmd": "4 or 5 or 6 HPHK (VT1)",
 						"cmnCmd": "VTrigger 1 (2nd Bomb)",
 						"startup": "25",
 						"active": "~",
@@ -40275,7 +40275,7 @@
 				{
 						"moveName": "Kunai Ikkinage LP",
 						"plnCmd": "Hold + Release LP",
-						"numCmd": "Hold + Release LP",
+						"numCmd": "(hold) LP (release)",
 						"cmnCmd": "LP Charge Ground Kunai",
 						"startup": "11",
 						"active": "~",
@@ -40308,7 +40308,7 @@
 				{
 						"moveName": "Kunai Ikkinage MP",
 						"plnCmd": "Hold + Release MP",
-						"numCmd": "Hold + Release MP",
+						"numCmd": "(hold) MP (release)",
 						"cmnCmd": "MP Charge Ground Kunai",
 						"startup": "11",
 						"active": "~",
@@ -40341,7 +40341,7 @@
 				{
 						"moveName": "Kunai Ikkinage HP",
 						"plnCmd": "Hold + Release HP",
-						"numCmd": "Hold + Release HP",
+						"numCmd": "(hold) HP (release)",
 						"cmnCmd": "HP Charge Ground Kunai",
 						"startup": "11",
 						"active": "~",
@@ -40372,9 +40372,9 @@
 						"chargeDirection": "R"
 				},
 				{
-						"moveName": "Airborne Kunai Ikkinage  LP",
+						"moveName": "Airborne Kunai Ikkinage LK",
 						"plnCmd": "Hold + Release LK (air)",
-						"numCmd": "Hold + Release LK (air)",
+						"numCmd": "(hold) LK (release) (air)",
 						"cmnCmd": "LK Charge Air Kunai",
 						"startup": "16",
 						"active": "~",
@@ -40399,9 +40399,9 @@
 						"chargeDirection": "R"
 				},
 				{
-						"moveName": "Airborne Kunai Ikkinage MP",
+						"moveName": "Airborne Kunai Ikkinage MK",
 						"plnCmd": "Hold + Release MK (air)",
-						"numCmd": "Hold + Release MK (air)",
+						"numCmd": "(hold) MK (release) (air)",
 						"cmnCmd": "MK Charge Air Kunai",
 						"startup": "16",
 						"active": "~",
@@ -40426,9 +40426,9 @@
 						"chargeDirection": "R"
 				},
 				{
-						"moveName": "Airborne Kunai Ikkinage HP",
+						"moveName": "Airborne Kunai Ikkinage HK",
 						"plnCmd": "Hold + Release HK (air)",
-						"numCmd": "Hold + Release HK (air)",
+						"numCmd": "(hold) HK (release) (air)",
 						"cmnCmd": "HK Charge Air Kunai",
 						"startup": "16",
 						"active": "~",
@@ -41385,7 +41385,7 @@
 				{
 						"moveName": "Kyoretsushu",
 						"plnCmd": "s.MP > b or f.HP",
-						"numCmd": "5MP > 4or6HP",
+						"numCmd": "5MP > 4 or 6HP",
 						"cmnCmd": "Target Combo",
 						"startup": "5+8",
 						"active": 3,
@@ -41414,7 +41414,7 @@
 				{
 						"moveName": "Enkushu (air)",
 						"plnCmd": "j.MP > j.HK (air)",
-						"numCmd": "j.MP > j.HK (air)",
+						"numCmd": "j.MP > HK",
 						"cmnCmd": "Target Combo (air)",
 						"startup": "6+5",
 						"active": 5,
@@ -41589,7 +41589,7 @@
 				{
 						"moveName": "Kasatsushu (charge)",
 						"plnCmd": "MP+MK (VS1) (charge)",
-						"numCmd": "MPMK (charge)",
+						"numCmd": "MPMK (VS1) (charge)",
 						"cmnCmd": "VSkill 1 charge",
 						"startup": 33,
 						"active": "~",
@@ -41612,7 +41612,7 @@
 				{
 						"moveName": "Kasatsushu (cancel)",
 						"plnCmd": "MP+MK (VS1) (cancel)",
-						"numCmd": "MPMK (VS1) (cancel)",
+						"numCmd": "MPMK (VS1) > MPMK",
 						"cmnCmd": "VSkill 1 cancel",
 						"startup": "12(4)",
 						"active": "~",
@@ -80200,9 +80200,9 @@
 						"moveButton": "MK"
 				},
 				{
-						"moveName": "stand HK (air)",
+						"moveName": "stand HK (high)",
 						"plnCmd": "HK",
-						"numCmd": "5HK (air)",
+						"numCmd": "5HK",
 						"startup": 9,
 						"active": 6,
 						"recovery": 19,
@@ -80519,7 +80519,7 @@
 						"chargeDirection": "R"
 				},
 				{
-						"moveName": "st.HK (release)",
+						"moveName": "stand HK (release)",
 						"plnCmd": "HK (release)",
 						"numCmd": "5HK (release)",
 						"startup": 1,
