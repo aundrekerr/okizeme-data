@@ -16826,7 +16826,7 @@
 					{
 							"moveName": "Ground Shave Rolling",
 							"plnCmd": "HP+HK",
-							"numCmd": "HPHK",
+							"numCmd": "HPHK (VT1)",
 							"cmnCmd": "Sonic Roll",
 							"startup": "6*33",
 							"active": "7(20)5*6*6*7",
@@ -16852,7 +16852,7 @@
 					{
 							"moveName": "Ground Shave Rolling (hold)",
 							"plnCmd": "HP+HK (hold)",
-							"numCmd": "HPHK (hold)",
+							"numCmd": "HPHK (VT1) (hold)",
 							"cmnCmd": "Sonic Roll (hold)",
 							"startup": "6*32*92",
 							"active": "7(19)60*12*5*5*5*5*5",
@@ -16878,7 +16878,7 @@
 					{
 							"moveName": "Ground Shave Rolling (release)",
 							"plnCmd": "HP+HK",
-							"numCmd": "HPHK (release)",
+							"numCmd": "HPHK (VT1) (release)",
 							"cmnCmd": "Sonic Roll (release)",
 							"startup": "3",
 							"active": "5*6*6*7",
@@ -16906,7 +16906,7 @@
 					{
 							"moveName": "Rolling Cannon",
 							"plnCmd": "HP+HK",
-							"numCmd": "HPHK",
+							"numCmd": "HPHK (VT2)",
 							"cmnCmd": "Beast Cannon",
 							"startup": "3(13)",
 							"active": 20,
@@ -16932,7 +16932,7 @@
 					{
 							"moveName": "Rolling Cannon from LP Roll",
 							"plnCmd": "b,f+LP > df+HP+HK",
-							"numCmd": "46LP > 3HPHK",
+							"numCmd": "46LP > 3HPHK (VT2)",
 							"cmnCmd": "LP Blanka Ball > Beast Cannon",
 							"startup": "9+3",
 							"active": 20,
@@ -16958,7 +16958,7 @@
 					{
 							"moveName": "Rolling Cannon from MP Roll",
 							"plnCmd": "b,f+MP > df+HP+HK",
-							"numCmd": "46MP > 3HPHK",
+							"numCmd": "46MP > 3HPHK (VT2)",
 							"cmnCmd": "MP Blanka Ball > Beast Cannon",
 							"startup": "9+3",
 							"active": 20,
@@ -16984,7 +16984,7 @@
 					{
 							"moveName": "Rolling Cannon from MP Roll",
 							"plnCmd": "b,f+HP > df+HP+HK",
-							"numCmd": "46HP > 3HPHK",
+							"numCmd": "46HP > 3HPHK (VT2)",
 							"cmnCmd": "HP Blanka Ball > Beast Cannon",
 							"startup": "9+3",
 							"active": 20,
@@ -17010,7 +17010,7 @@
 					{
 							"moveName": "Rolling Cannon from EX Roll",
 							"plnCmd": "b,f+PP > df+HP+HK",
-							"numCmd": "46PP > 3HPHK",
+							"numCmd": "46PP > 3HPHK (VT2)",
 							"cmnCmd": "EX Blanka Ball > Beast Cannon",
 							"startup": "8+3",
 							"active": 20,
@@ -22361,7 +22361,7 @@
 				{
 						"moveName": "Air Raid Punch",
 						"plnCmd": "MP > HP (air)",
-						"numCmd": "j.MP > j.HP",
+						"numCmd": "(air) MP > HP",
 						"cmnCmd": "Air Target Combo",
 						"startup": "7+9",
 						"active": 5,
@@ -22387,7 +22387,7 @@
 				{
 						"moveName": "Air Raid Kick",
 						"plnCmd": "MK > LK (air)",
-						"numCmd": "j.MK > j.LK",
+						"numCmd": "(air) MK > LK",
 						"cmnCmd": "Air Target Combo 2",
 						"startup": "7+3",
 						"active": 5,
@@ -23109,8 +23109,8 @@
 				},
 				{
 						"moveName": "Zonk Knuckle",
-						"plnCmd": "hold any punch button, release",
-						"numCmd": "hold any punch button, release",
+						"plnCmd": "hold P, release",
+						"numCmd": "hold P, release",
 						"cmnCmd": "Zonk",
 						"startup": 20,
 						"active": 3,
@@ -23133,8 +23133,8 @@
 				},
 				{
 						"moveName": "Zonk Knuckle Level 2",
-						"plnCmd": "hold any punch button, release",
-						"numCmd": "hold any punch button, release",
+						"plnCmd": "hold P, release",
+						"numCmd": "hold P, release",
 						"cmnCmd": "Zonk Level 2",
 						"startup": 20,
 						"active": 3,
@@ -23157,8 +23157,8 @@
 				},
 				{
 						"moveName": "Zonk Knuckle EX",
-						"plnCmd": "hold any 2 punch buttons, release",
-						"numCmd": "hold any 2 punch buttons, release",
+						"plnCmd": "hold PP, release",
+						"numCmd": "hold PP, release",
 						"cmnCmd": "EX Zonk",
 						"startup": 15,
 						"active": "3(19)2",
@@ -23188,8 +23188,8 @@
 				},
 				{
 						"moveName": "Zonk Knuckle EX Level 2",
-						"plnCmd": "hold any 2 punch buttons, release",
-						"numCmd": "hold any 2 punch buttons, release",
+						"plnCmd": "hold PP, release",
+						"numCmd": "hold PP, release",
 						"cmnCmd": "EX Zonk Level 2",
 						"startup": 15,
 						"active": "3(19)2",
@@ -23468,7 +23468,7 @@
 					{
 							"moveName": "Snipe Shot",
 							"plnCmd": "HP+HK",
-							"numCmd": "5HPHK",
+							"numCmd": "5HPHK (VT1)",
 							"cmnCmd": "Knife Throw",
 							"startup": 15,
 							"active": "~",
@@ -23496,7 +23496,7 @@
 					{
 							"moveName": "Anti-Air Snipe Shot",
 							"plnCmd": "d+HP+HK",
-							"numCmd": "2HPHK",
+							"numCmd": "2HPHK (VT1)",
 							"cmnCmd": "Knife Throw (air)",
 							"startup": 14,
 							"active": "~",
@@ -23524,7 +23524,7 @@
 					{
 							"moveName": "Reload",
 							"plnCmd": "HP+HK",
-							"numCmd": "5HPHK",
+							"numCmd": "5HPHK (VT1)",
 							"cmnCmd": "Knife Draw",
 							"startup": "~",
 							"active": "~",
@@ -23698,7 +23698,7 @@
 					{
 							"moveName": "Gentle Swing",
 							"plnCmd": "HP+HK",
-							"numCmd": "HPHK",
+							"numCmd": "HPHK (VT2)",
 							"cmnCmd": "Pipe Swing",
 							"startup": 16,
 							"active": 3,
@@ -23726,7 +23726,7 @@
 					{
 							"moveName": "Gentle Upper Swing",
 							"plnCmd": "d+HP+HK",
-							"numCmd": "2HPHK",
+							"numCmd": "2HPHK (VT2)",
 							"cmnCmd": "Pipe Swing (Upper)",
 							"startup": 12,
 							"active": 3,
@@ -23754,7 +23754,7 @@
 					{
 							"moveName": "Gentle Swing > Bean Ball",
 							"plnCmd": "HP+HK > qcb+P",
-							"numCmd": "HPHK > 214P",
+							"numCmd": "HPHK (VT2) > 214P",
 							"cmnCmd": "Pipe Swing > Bad Stone (Empty)",
 							"startup": "16+19",
 							"active": "2(~)",
@@ -23780,7 +23780,7 @@
 					{
 							"moveName": "Gentle Upper Swing > Bean Ball",
 							"plnCmd": "d+HP+HK > qcb+P",
-							"numCmd": "2HPHK > 214P",
+							"numCmd": "2HPHK (VT2) > 214P",
 							"cmnCmd": "Pipe Swing (Upper) > Bad Stone (Empty)",
 							"startup": "15+19",
 							"active": "3(~)",
@@ -23829,7 +23829,7 @@
 					{
 							"moveName": "Present Delivery (High)",
 							"plnCmd": "qcb+P > HP+HK",
-							"numCmd": "214P > HPHK",
+							"numCmd": "214P > HPHK (VT2)",
 							"cmnCmd": "Bad Stone (High)",
 							"startup": "19+34",
 							"active": "2(~)",
@@ -23855,7 +23855,7 @@
 					{
 							"moveName": "Present Delivery (Mid)",
 							"plnCmd": "qcb+P > HP+HK",
-							"numCmd": "214P > HPHK",
+							"numCmd": "214P > HPHK (VT2)",
 							"cmnCmd": "Bad Stone (Just Frame)",
 							"startup": "19+36",
 							"active": "2(~)",
@@ -23881,7 +23881,7 @@
 					{
 							"moveName": "Present Delivery (Low)",
 							"plnCmd": "qcb+P > HP+HK",
-							"numCmd": "214P > HPHK",
+							"numCmd": "214P > HPHK (VT2)",
 							"cmnCmd": "Bad Stone (Low)",
 							"startup": "19+39",
 							"active": "2(~)",
@@ -23907,7 +23907,7 @@
 					{
 							"moveName": "Unluck Gift",
 							"plnCmd": "qcb+P > d+HP+HK",
-							"numCmd": "214P > 2HPHK",
+							"numCmd": "214P > 2HPHK (VT2)",
 							"cmnCmd": "Bad Stone (Air)",
 							"startup": "19+33",
 							"active": "3(~)",
@@ -24037,7 +24037,7 @@
 					{
 							"moveName": "Toss & Smash > Present Delivery (H)",
 							"plnCmd": "hcb+K > qcb+P > HP+HK",
-							"numCmd": "63214K > P > 214P > HPHK",
+							"numCmd": "63214K > P > 214P > HPHK (VT2)",
 							"cmnCmd": "Cmd Grab > Bad Stone (High)",
 							"startup": "5+19+34",
 							"active": "~",
@@ -24063,7 +24063,7 @@
 					{
 							"moveName": "Toss & Smash > Present Delivery (M)",
 							"plnCmd": "hcb+K > qcb+P > HP+HK",
-							"numCmd": "63214K > P > 214P > HPHK",
+							"numCmd": "63214K > P > 214P > HPHK (VT2)",
 							"cmnCmd": "Cmd Grab > Bad Stone (Just Frame)",
 							"startup": "5+19+36",
 							"active": "~",
@@ -24089,7 +24089,7 @@
 					{
 							"moveName": "Toss & Smash > Present Delivery (L)",
 							"plnCmd": "hcb+K > qcb+P > HP+HK",
-							"numCmd": "63214K > P > 214P > HPHK",
+							"numCmd": "63214K > P > 214P > HPHK (VT2)",
 							"cmnCmd": "Cmd Grab > Bad Stone (Low)",
 							"startup": "5+19+39",
 							"active": "~",
@@ -24115,7 +24115,7 @@
 					{
 							"moveName": "Toss & Smash > Unluck Gift",
 							"plnCmd": "hcb+K > qcb+P > d+HP+HK",
-							"numCmd": "63214K > P > 214P > 2HPHK",
+							"numCmd": "63214K > P > 214P > 2HPHK (VT2)",
 							"cmnCmd": "Cmd Grab > Bad Stone (Air)",
 							"startup": "5+19+33",
 							"active": "~",
@@ -24141,7 +24141,7 @@
 					{
 							"moveName": "Toss & Smash (JF) > Present Delivery (H)",
 							"plnCmd": "hcb+K (JF) > qcb+P > HP+HK",
-							"numCmd": "63214K > P (JF) > 214P > HPHK",
+							"numCmd": "63214K > P (JF) > 214P > HPHK (VT2)",
 							"cmnCmd": "Cmd Grab (Homerun) > Bad Stone (High)",
 							"startup": "5+19+34",
 							"active": "~",
@@ -24167,7 +24167,7 @@
 					{
 							"moveName": "Toss & Smash (JF) > Present Delivery (M)",
 							"plnCmd": "hcb+K (JF) > qcb+P > HP+HK",
-							"numCmd": "63214K > P (JF) > 214P > HPHK",
+							"numCmd": "63214K > P (JF) > 214P > HPHK (VT2)",
 							"cmnCmd": "Cmd Grab (Homerun) > Bad Stone (JF)",
 							"startup": "5+19+36",
 							"active": "~",
@@ -24193,7 +24193,7 @@
 					{
 							"moveName": "Toss & Smash (JF) > Present Delivery (L)",
 							"plnCmd": "hcb+K (JF) > qcb+P > HP+HK",
-							"numCmd": "63214K > P (JF) > 214P > HPHK",
+							"numCmd": "63214K > P (JF) > 214P > HPHK (VT2)",
 							"cmnCmd": "Cmd Grab (Homerun) > Bad Stone (Low)",
 							"startup": "5+19+39",
 							"active": "~",
@@ -24219,7 +24219,7 @@
 					{
 							"moveName": "Toss & Smash (JF) > Unluck Gift",
 							"plnCmd": "hcb+K (JF) > qcb+P > d+HP+HK",
-							"numCmd": "63214K > P (JF) > 214P > 2HPHK",
+							"numCmd": "63214K > P (JF) > 214P > 2HPHK (VT2)",
 							"cmnCmd": "Cmd Grab (Homerun) > Bad Stone (Air)",
 							"startup": "5+19+33",
 							"active": "~",
@@ -31361,7 +31361,7 @@
 				{
 						"moveName": "Luftjagd",
 						"plnCmd": "d+MK (air)",
-						"numCmd": "2MK (air)",
+						"numCmd": "j.2MK",
 						"cmnCmd": "Divekick",
 						"startup": "16",
 						"active": "~",
@@ -31442,31 +31442,6 @@
 						"moveButton": "HP"
 				},
 				{
-						"moveName": "Wirbel Wind",
-						"plnCmd": "LP+LK",
-						"numCmd": "LPLK",
-						"cmnCmd": "Throw",
-						"startup": 5,
-						"active": 3,
-						"recovery": 17,
-						"total": 24,
-						"onHit": "KD",
-						"onBlock": "~",
-						"damage": 140,
-						"stun": 150,
-						"kd": 60,
-						"kdr": 11,
-						"kdrb": 11,
-						"attackLevel": "T",
-						"cancelsTo": "-",
-						"airmove": "false",
-						"followUp": "false",
-						"projectile": "false",
-						"moveType": "throw",
-						"moveMotion": "N",
-						"moveButton": "LPLK"
-				},
-				{
 						"moveName": "Zweitrit",
 						"plnCmd": "MK > HK",
 						"numCmd": "5MK > 5HK",
@@ -31518,6 +31493,31 @@
 						"moveButton": "MPMK"
 				},
 				{
+					"moveName": "Wirbel Wind",
+					"plnCmd": "LP+LK",
+					"numCmd": "LPLK",
+					"cmnCmd": "Throw",
+					"startup": 5,
+					"active": 3,
+					"recovery": 17,
+					"total": 24,
+					"onHit": "KD",
+					"onBlock": "~",
+					"damage": 140,
+					"stun": 150,
+					"kd": 60,
+					"kdr": 11,
+					"kdrb": 11,
+					"attackLevel": "T",
+					"cancelsTo": "-",
+					"airmove": "false",
+					"followUp": "false",
+					"projectile": "false",
+					"moveType": "throw",
+					"moveMotion": "N",
+					"moveButton": "LPLK"
+				},
+				{
 						"moveName": "Luftstrom",
 						"plnCmd": "b+LP+LK",
 						"numCmd": "4LPLK",
@@ -31545,7 +31545,7 @@
 				{
 						"moveName": "Windstoss",
 						"plnCmd": "LP+LK (air)",
-						"numCmd": "LPLK (air)",
+						"numCmd": "(air) LPLK",
 						"cmnCmd": "Air Throw",
 						"startup": 5,
 						"active": "2",
@@ -31599,7 +31599,7 @@
 				{
 						"moveName": "Psycho Mine",
 						"plnCmd": "n or b or d or db + MP+MK (VS2)",
-						"numCmd": "5 or 4 or 2 or 1MPMK (VS2)",
+						"numCmd": "4 or 1 or 2MPMK (VS2)",
 						"cmnCmd": "VSkill 2 (Mine)",
 						"startup": "28",
 						"active": "7",
@@ -31717,8 +31717,8 @@
 				},
 				{
 						"moveName": "Psycho Kugel",
-						"plnCmd": "hold punch button + release (standing)",
-						"numCmd": "hold punch button + release (standing)",
+						"plnCmd": "hold P + release (standing)",
+						"numCmd": "hold P + release",
 						"cmnCmd": "Fireball",
 						"startup": "16",
 						"active": "2(2)2(1)2",
@@ -31746,8 +31746,8 @@
 				},
 				{
 						"moveName": "Psycho Kanonen",
-						"plnCmd": "hold punch button + release (crouch)",
-						"numCmd": "hold punch button + release (crouch)",
+						"plnCmd": "hold P + release (crouching)",
+						"numCmd": "hold P + release 2",
 						"cmnCmd": "Crouch Fireball (sniper)",
 						"startup": "24",
 						"active": "20",
@@ -31775,8 +31775,8 @@
 				},
 				{
 						"moveName": "Psycho Feder",
-						"plnCmd": "hold punch button + release (air)",
-						"numCmd": "hold punch button + release (air)",
+						"plnCmd": "hold P + release (air)",
+						"numCmd": "hold P + release (air)",
 						"cmnCmd": "Air Fireball",
 						"startup": "16",
 						"active": "~",
@@ -31935,7 +31935,7 @@
 					{
 							"moveName": "Psycho Schrot",
 							"plnCmd": "HP+HK",
-							"numCmd": "HPHK",
+							"numCmd": "HPHK (VT1)",
 							"cmnCmd": "Fireball (VT1)",
 							"startup": "14(16)",
 							"active": "3(14)",
@@ -31962,7 +31962,7 @@
 					{
 							"moveName": "Psycho Panzer",
 							"plnCmd": "d+HP+HK",
-							"numCmd": "2HPHK",
+							"numCmd": "2HPHK (VT1)",
 							"cmnCmd": "Crouch Fireball (sniper) (VT1)",
 							"startup": 20,
 							"active": 20,
@@ -31989,7 +31989,7 @@
 					{
 							"moveName": "Psycho Jaeger",
 							"plnCmd": "HP+HK (air)",
-							"numCmd": "HPHK (air)",
+							"numCmd": "HPHK (VT1) (air)",
 							"cmnCmd": "Air Fireball (VT1)",
 							"startup": 15,
 							"active": "~",
@@ -32018,7 +32018,7 @@
 					{
 							"moveName": "Psycho Strum",
 							"plnCmd": "HP+HK",
-							"numCmd": "HPHK",
+							"numCmd": "HPHK (VT2)",
 							"cmnCmd": "Vtrigger 2 Swing",
 							"startup": 15,
 							"active": 2,
@@ -32044,7 +32044,7 @@
 					{
 							"moveName": "Psycho Klinge",
 							"plnCmd": "d+HP+HK",
-							"numCmd": "2HPHK",
+							"numCmd": "2HPHK (VT2)",
 							"cmnCmd": "Vtrigger 2 Overhead",
 							"startup": 33,
 							"active": 5,
@@ -32908,7 +32908,7 @@
 						"airmove": "false",
 						"followUp": "false",
 						"projectile": "false",
-						"extraInfo": "[\"Deals increased damage (+10) / stun (+50) and knockdown distance over regular forward throw (but has the same KDA)\"]",
+						"extraInfo": "[\"Only occurs when throwing a crouching opponent\", \"Deals increased damage (+10) / stun (+50) and knockdown distance over regular forward throw (but has the same KDA)\"]",
 						"moveType": "throw",
 						"moveMotion": "N",
 						"moveButton": "LPLK"
@@ -33106,7 +33106,7 @@
 				{
 						"moveName": "G Smash Over LP (Level 1)",
 						"plnCmd": "f,d,df+LP (Level 1)",
-						"numCmd": "623LP (Level 1)",
+						"numCmd": "623LP",
 						"cmnCmd": "LP Dash Straight (Level 1)",
 						"startup": 16,
 						"active": 5,
@@ -33138,7 +33138,7 @@
 				{
 						"moveName": "G Smash Over MP (Level 1)",
 						"plnCmd": "f,d,df+MP (Level 1)",
-						"numCmd": "623MP (Level 1)",
+						"numCmd": "623MP",
 						"cmnCmd": "MP Dash Straight (Level 1)",
 						"startup": 20,
 						"active": 5,
@@ -33170,7 +33170,7 @@
 				{
 						"moveName": "G Smash Over HP (Level 1)",
 						"plnCmd": "f,d,df+HP (Level 1)",
-						"numCmd": "623HP (Level 1)",
+						"numCmd": "623HP",
 						"cmnCmd": "HP Dash Straight (Level 1)",
 						"startup": "22(25)",
 						"active": 5,
@@ -33202,7 +33202,7 @@
 				{
 						"moveName": "G Smash Over LP (Level 2)",
 						"plnCmd": "f,d,df+LP (Level 2)",
-						"numCmd": "623LP (Level 2)",
+						"numCmd": "623LP",
 						"cmnCmd": "LP Dash Straight (Level 2)",
 						"startup": 16,
 						"active": 5,
@@ -33234,7 +33234,7 @@
 				{
 						"moveName": "G Smash Over MP (Level 2)",
 						"plnCmd": "f,d,df+MP (Level 2)",
-						"numCmd": "623MP (Level 2)",
+						"numCmd": "623MP",
 						"cmnCmd": "MP Dash Straight (Level 2)",
 						"startup": 20,
 						"active": 5,
@@ -33266,7 +33266,7 @@
 				{
 						"moveName": "G Smash Over HP (Level 2)",
 						"plnCmd": "f,d,df+HP (Level 2)",
-						"numCmd": "623HP (Level 2)",
+						"numCmd": "623HP",
 						"cmnCmd": "HP Dash Straight (Level 2)",
 						"startup": "22(25)",
 						"active": 5,
@@ -33298,7 +33298,7 @@
 				{
 						"moveName": "G Smash Over (Level 3)",
 						"plnCmd": "f,d,df+P (Level 3)",
-						"numCmd": "623P (Level 3)",
+						"numCmd": "623P",
 						"cmnCmd": "Dash Straight (Level 3)",
 						"startup": 13,
 						"active": 5,
@@ -33360,7 +33360,7 @@
 				{
 						"moveName": "G Smash Under LK (Level 1)",
 						"plnCmd": "f,d,df+LK (Level 1)",
-						"numCmd": "623LK (Level 1)",
+						"numCmd": "623LK",
 						"cmnCmd": "LK Dash Low (Level 1)",
 						"startup": 13,
 						"active": 5,
@@ -33392,7 +33392,7 @@
 				{
 						"moveName": "G Smash Under MK (Level 1)",
 						"plnCmd": "f,d,df+MK (Level 1)",
-						"numCmd": "623MK (Level 1)",
+						"numCmd": "623MK",
 						"cmnCmd": "MK Dash Low (Level 1)",
 						"startup": 16,
 						"active": 5,
@@ -33424,7 +33424,7 @@
 				{
 						"moveName": "G Smash Under HK (Level 1)",
 						"plnCmd": "f,d,df+HK (Level 1)",
-						"numCmd": "623HK (Level 1)",
+						"numCmd": "623HK",
 						"cmnCmd": "HK Dash Low (Level 1)",
 						"startup": "20(23)",
 						"active": 5,
@@ -33456,7 +33456,7 @@
 				{
 						"moveName": "G Smash Under LK (Level 2)",
 						"plnCmd": "f,d,df+LK (Level 2)",
-						"numCmd": "623LK (Level 2)",
+						"numCmd": "623LK",
 						"cmnCmd": "LK Dash Low (Level 2)",
 						"startup": 13,
 						"active": 5,
@@ -33488,7 +33488,7 @@
 				{
 						"moveName": "G Smash Under MK (Level 2)",
 						"plnCmd": "f,d,df+MK (Level 2)",
-						"numCmd": "623MK (Level 2)",
+						"numCmd": "623MK",
 						"cmnCmd": "MK Dash Low (Level 2)",
 						"startup": 16,
 						"active": 5,
@@ -33520,7 +33520,7 @@
 				{
 						"moveName": "G Smash Under HK (Level 2)",
 						"plnCmd": "f,d,df+HK (Level 2)",
-						"numCmd": "623HK (Level 2)",
+						"numCmd": "623HK",
 						"cmnCmd": "HK Dash Low (Level 2)",
 						"startup": "20(23)",
 						"active": 5,
@@ -33552,7 +33552,7 @@
 				{
 						"moveName": "G Smash Under (Level 3)",
 						"plnCmd": "f,d,df+K (Level 3)",
-						"numCmd": "623K (Level 3)",
+						"numCmd": "623K",
 						"cmnCmd": "Dash Low (Level 3)",
 						"startup": "13(18)",
 						"active": 5,
@@ -33614,7 +33614,7 @@
 				{
 						"moveName": "G Burst LP (Level 1)",
 						"plnCmd": "qcf+LP (Level 1)",
-						"numCmd": "236LP (Level 1)",
+						"numCmd": "236LP",
 						"cmnCmd": "LP Fireball (Level 1)",
 						"startup": 15,
 						"active": 11,
@@ -33643,7 +33643,7 @@
 				{
 						"moveName": "G Burst MP (Level 1)",
 						"plnCmd": "qcf+MP (Level 1)",
-						"numCmd": "236MP (Level 1)",
+						"numCmd": "236MP",
 						"cmnCmd": "MP Fireball (Level 1)",
 						"startup": 20,
 						"active": 11,
@@ -33672,7 +33672,7 @@
 				{
 						"moveName": "G Burst HP (Level 1)",
 						"plnCmd": "qcf+HP (Level 1)",
-						"numCmd": "236HP (Level 1)",
+						"numCmd": "236HP",
 						"cmnCmd": "HP Fireball (Level 1)",
 						"startup": 25,
 						"active": 11,
@@ -33701,7 +33701,7 @@
 				{
 						"moveName": "G Burst LP (Level 2)",
 						"plnCmd": "qcf+LP (Level 2)",
-						"numCmd": "236LP (Level 2)",
+						"numCmd": "236LP",
 						"cmnCmd": "LP Fireball (Level 2)",
 						"startup": 15,
 						"active": 11,
@@ -33730,7 +33730,7 @@
 				{
 						"moveName": "G Burst MP (Level 2)",
 						"plnCmd": "qcf+MP (Level 2)",
-						"numCmd": "236MP (Level 2)",
+						"numCmd": "236MP",
 						"cmnCmd": "MP Fireball (Level 2)",
 						"startup": 20,
 						"active": 11,
@@ -33759,7 +33759,7 @@
 				{
 						"moveName": "G Burst HP (Level 2)",
 						"plnCmd": "qcf+HP (Level 2)",
-						"numCmd": "236HP (Level 2)",
+						"numCmd": "236HP",
 						"cmnCmd": "HP Fireball (Level 2)",
 						"startup": 25,
 						"active": 11,
@@ -33788,7 +33788,7 @@
 				{
 						"moveName": "G Burst (Level 3)",
 						"plnCmd": "qcf+P (Level 3)",
-						"numCmd": "236P (Level 3)",
+						"numCmd": "236P",
 						"cmnCmd": "Fireball (Level 3)",
 						"startup": 15,
 						"active": "13*16",
@@ -33856,7 +33856,7 @@
 				{
 						"moveName": "G Spin Kick LK (Level 1)",
 						"plnCmd": "qcf+LK (Level 1)",
-						"numCmd": "236LK (Level 1)",
+						"numCmd": "236LK",
 						"cmnCmd": "LK Flip Kick (Level 1)",
 						"startup": "20(25)",
 						"active": 7,
@@ -33885,7 +33885,7 @@
 				{
 						"moveName": "G Spin Kick MK (Level 1)",
 						"plnCmd": "qcf+MK (Level 1)",
-						"numCmd": "236MK (Level 1)",
+						"numCmd": "236MK",
 						"cmnCmd": "MK Flip Kick (Level 1)",
 						"startup": "25(30)",
 						"active": 7,
@@ -33914,7 +33914,7 @@
 				{
 						"moveName": "G Spin Kick HK (Level 1)",
 						"plnCmd": "qcf+HK (Level 1)",
-						"numCmd": "236HK (Level 1)",
+						"numCmd": "236HK",
 						"cmnCmd": "HK Flip Kick (Level 1)",
 						"startup": "28(33)",
 						"active": 7,
@@ -33943,7 +33943,7 @@
 				{
 						"moveName": "G Spin Kick LK (Level 2)",
 						"plnCmd": "qcf+LK (Level 2)",
-						"numCmd": "236LK (Level 2)",
+						"numCmd": "236LK",
 						"cmnCmd": "LK Flip Kick (Level 2)",
 						"startup": "17(25)",
 						"active": "2(1)7",
@@ -33972,7 +33972,7 @@
 				{
 						"moveName": "G Spin Kick MK (Level 2)",
 						"plnCmd": "qcf+MK (Level 2)",
-						"numCmd": "236MK (Level 2)",
+						"numCmd": "236MK",
 						"cmnCmd": "MK Flip Kick (Level 2)",
 						"startup": "22(30)",
 						"active": "2(1)7",
@@ -34001,7 +34001,7 @@
 				{
 						"moveName": "G Spin Kick HK (Level 2)",
 						"plnCmd": "qcf+HK (Level 2)",
-						"numCmd": "236HK (Level 2)",
+						"numCmd": "236HK",
 						"cmnCmd": "HK Flip Kick (Level 2)",
 						"startup": "25(33)",
 						"active": "2(1)7",
@@ -34030,7 +34030,7 @@
 				{
 						"moveName": "G Spin Kick (Level 3)",
 						"plnCmd": "qcf+K (Level 3)",
-						"numCmd": "236K (Level 3)",
+						"numCmd": "236K",
 						"cmnCmd": "Flip Kick (Level 3)",
 						"startup": "20(25)",
 						"active": 7,
@@ -34088,7 +34088,7 @@
 				{
 						"moveName": "G Impact (Level 1)",
 						"plnCmd": "hcb+K (Level 1)",
-						"numCmd": "63214K (Level 1)",
+						"numCmd": "63214K",
 						"cmnCmd": "Command Grab (Level 1)",
 						"startup": "12(7)",
 						"active": 2,
@@ -34114,7 +34114,7 @@
 				{
 						"moveName": "G Impact (Level 2)",
 						"plnCmd": "hcb+K (Level 2)",
-						"numCmd": "63214K (Level 2)",
+						"numCmd": "63214K",
 						"cmnCmd": "Command Grab (Level 2)",
 						"startup": "12(7)",
 						"active": 2,
@@ -34141,7 +34141,7 @@
 				{
 						"moveName": "G Impact (Level 3)",
 						"plnCmd": "hcb+K (Level 3)",
-						"numCmd": "63214K (Level 3)",
+						"numCmd": "63214K",
 						"cmnCmd": "Command Grab (Level 3)",
 						"startup": "12(7)",
 						"active": 2,
@@ -34219,7 +34219,7 @@
 				{
 						"moveName": "G Charge (Hold)",
 						"plnCmd": "d,d+PP (Hold)",
-						"numCmd": "22PP (Hold)",
+						"numCmd": "22PP (hold)",
 						"cmnCmd": "Charge (Hold)",
 						"startup": "~",
 						"active": "~",
@@ -34243,7 +34243,7 @@
 				{
 						"moveName": "G Charge (Cancel)",
 						"plnCmd": "PP (Cancel)",
-						"numCmd": "PP (Cancel)",
+						"numCmd": "PP (release)",
 						"cmnCmd": "Charge (Cancel)",
 						"startup": "~",
 						"active": "~",
@@ -34295,7 +34295,7 @@
 					{
 							"moveName": "G Smash Over (V-Trigger 1)",
 							"plnCmd": "f,d,df+P (V-Trigger 1)",
-							"numCmd": "623P (V-Trigger 1)",
+							"numCmd": "623P",
 							"cmnCmd": "Dash Straight (V-Trigger 1)",
 							"startup": 13,
 							"active": 5,
@@ -34324,7 +34324,7 @@
 					{
 							"moveName": "G Smash Under (V-Trigger 1)",
 							"plnCmd": "f,d,df+K (V-Trigger 1)",
-							"numCmd": "623K (V-Trigger 1)",
+							"numCmd": "623K",
 							"cmnCmd": "Dash Low (V-Trigger 1)",
 							"startup": "13(18)",
 							"active": 5,
@@ -34353,7 +34353,7 @@
 					{
 							"moveName": "G Burst (V-Trigger 1)",
 							"plnCmd": "qcf+P (V-Trigger 1)",
-							"numCmd": "236P (V-Trigger 1)",
+							"numCmd": "236P",
 							"cmnCmd": "Fireball (V-Trigger 1)",
 							"startup": 15,
 							"active": "13*16",
@@ -34383,7 +34383,7 @@
 					{
 							"moveName": "G Spin Kick (V-Trigger 1)",
 							"plnCmd": "qcf+K (V-Trigger 1)",
-							"numCmd": "236K (V-Trigger 1)",
+							"numCmd": "236K",
 							"cmnCmd": "Spineroonis (V-Trigger 1)",
 							"startup": "20(25)",
 							"active": 7,
@@ -34410,7 +34410,7 @@
 					{
 							"moveName": "G Impact (V-Trigger 1)",
 							"plnCmd": "hcb+K (V-Trigger 1)",
-							"numCmd": "63214K (V-Trigger 1)",
+							"numCmd": "63214K",
 							"cmnCmd": "Command Grab (V-Trigger 1)",
 							"startup": "12(5)",
 							"active": 2,
@@ -34491,7 +34491,7 @@
 					{
 							"moveName": "G Explosion",
 							"plnCmd": "HP+HK (Explosion)",
-							"numCmd": "HPHK (Explosion)",
+							"numCmd": "HPHK (VT2)",
 							"cmnCmd": "VTrigger 2 Explosion",
 							"startup": 12,
 							"active": "2*10",
@@ -34523,7 +34523,7 @@
 					{
 							"moveName": "G Rage",
 							"plnCmd": "d+HP+HK (Command Grab)",
-							"numCmd": "2HPHK (Command Grab)",
+							"numCmd": "2HPHK (VT2)",
 							"cmnCmd": "VTrigger 2 Command Grab",
 							"startup": "20(25)",
 							"active": 3,
@@ -36257,7 +36257,7 @@
 					{
 							"moveName": "Flame Javelin",
 							"plnCmd": "d, db or df HP+HK",
-							"numCmd": "2, 1 or 3HPHK",
+							"numCmd": "2 or 1 or 3 HPHK",
 							"cmnCmd": "VT1 Projectile",
 							"startup": 22,
 							"active": "~(12)",
@@ -36517,7 +36517,7 @@
 					{
 							"moveName": "Delay Freeze Lance",
 							"plnCmd": "d, db or df HP+HK",
-							"numCmd": "2, 1 or 3HPHK",
+							"numCmd": "2 or 1 or 3 HPHK",
 							"cmnCmd": "Ice Trap",
 							"startup": "50(3)",
 							"active": "180(12)",
@@ -53744,7 +53744,7 @@
 				{
 						"moveName": "Drop Target",
 						"plnCmd": "MP > HP (air)",
-						"numCmd": "j.MP > j.HP",
+						"numCmd": "(air) MP > HP",
 						"cmnCmd": "Air Target Combo",
 						"startup": "6+9",
 						"active": 5,
@@ -65738,7 +65738,7 @@
 				{
 						"moveName": "Slap & Slash",
 						"plnCmd": "MP > f+HP (air)",
-						"numCmd": "9 > MP > 6HP",
+						"numCmd": "(air) MP > 6HP",
 						"cmnCmd": "j.MP > f+HP (fwd jump)",
 						"startup": "6+9",
 						"active": 7,
@@ -74835,7 +74835,7 @@
 					{
 							"moveName": "Tiger Cannon",
 							"plnCmd": "HP+HK",
-							"numCmd": "HPHK",
+							"numCmd": "HPHK (VT1)",
 							"cmnCmd": "VTrigger Fireball",
 							"startup": 17,
 							"active": "~",
@@ -74863,7 +74863,7 @@
 					{
 							"moveName": "Tiger Spike (level 1)",
 							"plnCmd": "HP+HK",
-							"numCmd": "HPHK (lvl 1)",
+							"numCmd": "HPHK (VT2)",
 							"cmnCmd": "Vtrigger Kick (level 1)",
 							"startup": "9+11(12+11)",
 							"active": 2,
@@ -74889,7 +74889,7 @@
 					{
 							"moveName": "Tiger Spike (level 2)",
 							"plnCmd": "HP+HK",
-							"numCmd": "HPHK (lvl 2)",
+							"numCmd": "HPHK (VT2)",
 							"cmnCmd": "Vtrigger Kick (level 2)",
 							"startup": "13+11(39+11)",
 							"active": 2,
@@ -74915,7 +74915,7 @@
 					{
 							"moveName": "Tiger Spike (level 3)",
 							"plnCmd": "HP+HK",
-							"numCmd": "HPHK (lvl 3)",
+							"numCmd": "HPHK (VT2)",
 							"cmnCmd": "Vtrigger Kick (level 3)",
 							"startup": 50,
 							"active": 2,
@@ -74941,7 +74941,7 @@
 					{
 							"moveName": "Tiger Rush",
 							"plnCmd": "f+HP+HK",
-							"numCmd": "6HPHK",
+							"numCmd": "6HPHK (VT2)",
 							"cmnCmd": "Vtrigger Knee",
 							"startup": 13,
 							"active": 5,
@@ -75704,7 +75704,7 @@
 				{
 						"moveName": "Sailor Hop",
 						"plnCmd": "LP+LK (air)",
-						"numCmd": "LPLK (air)",
+						"numCmd": "(air) LPLK",
 						"cmnCmd": "Air Throw",
 						"startup": 5,
 						"active": 2,
@@ -77787,7 +77787,7 @@
 				{
 						"moveName": "Tanden Install",
 						"plnCmd": "MP+MK > P (VS1)",
-						"numCmd": "MPMK > P (VS1)",
+						"numCmd": "MPMK (VS1) > P",
 						"cmnCmd": "VSkill 1 Steal",
 						"startup": "20+4",
 						"active": 5,
@@ -77811,7 +77811,7 @@
 				{
 						"moveName": "Install Art (Abigail: Abigail Punch)",
 						"plnCmd": "MP+MK (Abigail)",
-						"numCmd": "MPMK (Abigail)",
+						"numCmd": "MPMK (VS1) (Abigail)",
 						"cmnCmd": "[ABIGAIL] Abigail Punch",
 						"startup": 16,
 						"active": 2,
@@ -77837,7 +77837,7 @@
 				{
 						"moveName": "Install Art (Abigail: Abigail Punch (mash))",
 						"plnCmd": "MP+MK (Abigail) (mash)",
-						"numCmd": "MPMK (Abigail) (mash)",
+						"numCmd": "MPMK (VS1) (Abigail) (mash)",
 						"cmnCmd": "[ABIGAIL] Abigail Punch (mash)",
 						"startup": 16,
 						"active": 2,
@@ -77863,7 +77863,7 @@
 				{
 						"moveName": "Install Art (Akuma: Sekia Goshoha)",
 						"plnCmd": "MP+MK (Akuma)",
-						"numCmd": "MPMK (Akuma)",
+						"numCmd": "MPMK (VS1) (Akuma)",
 						"cmnCmd": "[AKUMA] Red Fireball",
 						"startup": 25,
 						"active": "~",
@@ -77889,7 +77889,7 @@
 				{
 						"moveName": "Install Art (Alex: Air Stampede)",
 						"plnCmd": "MP+MK (Alex)",
-						"numCmd": "MPMK (Alex)",
+						"numCmd": "MPMK (VS1) (Alex)",
 						"cmnCmd": "[ALEX] Air Stomp",
 						"startup": 26,
 						"active": 4,
@@ -77915,7 +77915,7 @@
 				{
 						"moveName": "Install Art (Birdie: Bull Head)",
 						"plnCmd": "MP+MK (Birdie)",
-						"numCmd": "MPMK (Birdie)",
+						"numCmd": "MPMK (VS1) (Birdie)",
 						"cmnCmd": "[BIRDIE] Bull Head",
 						"startup": 18,
 						"active": 3,
@@ -77941,7 +77941,7 @@
 				{
 						"moveName": "Install Art (Blanka: Rolling Attack)",
 						"plnCmd": "MP+MK (Blanka)",
-						"numCmd": "MPMK (Blanka)",
+						"numCmd": "MPMK (VS1) (Blanka)",
 						"cmnCmd": "[BLANKA] Blanka Ball",
 						"startup": 9,
 						"active": 29,
@@ -77967,7 +77967,7 @@
 				{
 						"moveName": "Install Art (Boxer: Turn Punch)",
 						"plnCmd": "MP+MK (Boxer)",
-						"numCmd": "MPMK (Boxer)",
+						"numCmd": "MPMK (VS1) (Boxer)",
 						"cmnCmd": "[BOXER] Turn Around Punch",
 						"startup": "26(30)",
 						"active": 2,
@@ -77993,7 +77993,7 @@
 				{
 						"moveName": "Install Art (Cammy)",
 						"plnCmd": "MP+MK (Cammy)",
-						"numCmd": "MPMK (Cammy)",
+						"numCmd": "MPMK (VS1) (Cammy)",
 						"cmnCmd": "[CAMMY] Spiral Arrow",
 						"startup": 7,
 						"active": 14,
@@ -78019,7 +78019,7 @@
 				{
 						"moveName": "Install Art (Chun-Li)",
 						"plnCmd": "MP+MK (Chun-Li)",
-						"numCmd": "MPMK (Chun-Li)",
+						"numCmd": "MPMK (VS1) (Chun-Li)",
 						"cmnCmd": "[Chun-Li] Lightning Kicks",
 						"startup": 5,
 						"active": "2(5)2(6)2(6)2",
@@ -78042,7 +78042,7 @@
 				{
 						"moveName": "Install Art (Claw)",
 						"plnCmd": "MP+MK (Claw)",
-						"numCmd": "MPMK (Claw)",
+						"numCmd": "MPMK (VS1) (Claw)",
 						"cmnCmd": "[CLAW] Rolling Attack",
 						"startup": 8,
 						"active": "2(17)5",
@@ -78065,7 +78065,7 @@
 				{
 						"moveName": "Install Art (Cody)",
 						"plnCmd": "MP+MK (Cody)",
-						"numCmd": "MPMK (Cody)",
+						"numCmd": "MPMK (VS1) (Cody)",
 						"cmnCmd": "[CODY] Zonk Knuckle",
 						"startup": 20,
 						"active": 3,
@@ -78088,7 +78088,7 @@
 				{
 						"moveName": "Install Art (Dhalsim)",
 						"plnCmd": "MP+MK (Dhalsim)",
-						"numCmd": "MPMK (Dhalsim)",
+						"numCmd": "MPMK (VS1) (Dhalsim)",
 						"cmnCmd": "[DHALSIM] Yoga Flame",
 						"startup": 13,
 						"active": 23,
@@ -78114,7 +78114,7 @@
 				{
 						"moveName": "Install Art (Dictator)",
 						"plnCmd": "MP+MK (Dictator)",
-						"numCmd": "MPMK (Dictator)",
+						"numCmd": "MPMK (VS1) (Dictator)",
 						"cmnCmd": "[DICTATOR] Scissor Kick",
 						"startup": 19,
 						"active": "2(2)3",
@@ -78137,7 +78137,7 @@
 				{
 						"moveName": "Install Art (Ed)",
 						"plnCmd": "MP+MK (Ed)",
-						"numCmd": "MPMK (Ed)",
+						"numCmd": "MPMK (VS1) (Ed)",
 						"cmnCmd": "[ED] Psycho Upper",
 						"startup": 16,
 						"active": 5,
@@ -78163,7 +78163,7 @@
 				{
 						"moveName": "Install Art (E.Honda)",
 						"plnCmd": "MP+MK (E.Honda)",
-						"numCmd": "MPMK (E.Honda)",
+						"numCmd": "MPMK (VS1) (E.Honda)",
 						"cmnCmd": "[E.HONDA] Sumo Headbutt",
 						"startup": "12(18)",
 						"active": "3(25)",
@@ -78189,7 +78189,7 @@
 				{
 						"moveName": "Install Art (Falke)",
 						"plnCmd": "MP+MK (Falke)",
-						"numCmd": "MPMK (Falke)",
+						"numCmd": "MPMK (VS1) (Falke)",
 						"cmnCmd": "[FALKE] Fireball",
 						"startup": 16,
 						"active": "2(2)2(1)2",
@@ -78212,7 +78212,7 @@
 				{
 						"moveName": "Install Art (F.A.N.G)",
 						"plnCmd": "MP+MK (F.A.N.G)",
-						"numCmd": "MPMK (F.A.N.G)",
+						"numCmd": "MPMK (VS1) (F.A.N.G)",
 						"cmnCmd": "[FANG] Cloud",
 						"startup": 23,
 						"active": "~",
@@ -78235,7 +78235,7 @@
 				{
 						"moveName": "Install Art (F.A.N.G: Placed Poison)",
 						"plnCmd": "MP+MK (F.A.N.G) (Trap)",
-						"numCmd": "MPMK (F.A.N.G) (Trap)",
+						"numCmd": "MPMK (VS1) (F.A.N.G) (Trap)",
 						"cmnCmd": "[FANG] Smoke Trap",
 						"startup": 23,
 						"active": 120,
@@ -78255,7 +78255,7 @@
 				{
 						"moveName": "Install Art (G: Spin Kick)",
 						"plnCmd": "MP+MK (G)",
-						"numCmd": "MPMK (G)",
+						"numCmd": "MPMK (VS1) (G)",
 						"cmnCmd": "[G] Spin Kick",
 						"startup": 17,
 						"active": 9,
@@ -78278,7 +78278,7 @@
 				{
 						"moveName": "Install Art (Gill: Moonsault Knee Drop)",
 						"plnCmd": "MP+MK (Gill)",
-						"numCmd": "MPMK (Gill)",
+						"numCmd": "MPMK (VS1) (Gill)",
 						"cmnCmd": "[GILL] Knee Drop",
 						"startup": 10,
 						"active": "3(13)11",
@@ -78304,7 +78304,7 @@
 				{
 						"moveName": "Install Art (Guile)",
 						"plnCmd": "MP+MK (Guile)",
-						"numCmd": "MPMK (Guile)",
+						"numCmd": "MPMK (VS1) (Guile)",
 						"cmnCmd": "[GUILE] Sonic Boom",
 						"startup": 10,
 						"active": "~",
@@ -78325,7 +78325,7 @@
 				{
 						"moveName": "Install Art (Ibuki)",
 						"plnCmd": "MP+MK (Ibuki)",
-						"numCmd": "MPMK (Ibuki)",
+						"numCmd": "MPMK (VS1) (Ibuki)",
 						"cmnCmd": "[IBUKI] Command Dash",
 						"startup": "~",
 						"active": "~",
@@ -78348,7 +78348,7 @@
 				{
 						"moveName": "Install Art (Juri)",
 						"plnCmd": "MP+MK (Juri)",
-						"numCmd": "MPMK (Juri)",
+						"numCmd": "MPMK (VS1) (Juri)",
 						"cmnCmd": "[Juri] Flip Kick",
 						"startup": 19,
 						"active": 3,
@@ -78374,7 +78374,7 @@
 				{
 						"moveName": "Install Art (Kage)",
 						"plnCmd": "MP+MK (Kage)",
-						"numCmd": "MPMK (Kage)",
+						"numCmd": "MPMK (VS1) (Kage)",
 						"cmnCmd": "[KAGE] Stomp",
 						"startup": 22,
 						"active": 3,
@@ -78397,7 +78397,7 @@
 				{
 						"moveName": "Install Art (Karin: Kanzuki-Ryu Hokojutsu Seppo)",
 						"plnCmd": "MP+MK (Karin Dash)",
-						"numCmd": "MPMK (Karin Dash)",
+						"numCmd": "MPMK (VS1) (Karin Dash)",
 						"cmnCmd": "[KARIN] Command Dash",
 						"startup": "~",
 						"active": "~",
@@ -78420,7 +78420,7 @@
 				{
 						"moveName": "Install Art (Karin: Just Frame Tenko)",
 						"plnCmd": "MP+MK (Karin Just Frame Tenko)",
-						"numCmd": "MPMK (Karin Just FrameTenko)",
+						"numCmd": "MPMK (VS1) (Karin Just FrameTenko)",
 						"cmnCmd": "[KARIN] Command Dash > Tenko (Just Frame)",
 						"startup": "1+6",
 						"active": 4,
@@ -78446,7 +78446,7 @@
 				{
 						"moveName": "Install Art (Karin: Late Tenko)",
 						"plnCmd": "MP+MK (Karin Late Tenko)",
-						"numCmd": "MPMK (Karin Late Tenko)",
+						"numCmd": "MPMK (VS1) (Karin Late Tenko)",
 						"cmnCmd": "[KARIN] Command Dash > Tenko (Late)",
 						"startup": "4+9",
 						"active": 3,
@@ -78472,7 +78472,7 @@
 				{
 						"moveName": "Install Art (Karin: Orochi)",
 						"plnCmd": "MP+MK (Karin Orochi)",
-						"numCmd": "MPMK (Karin Orochi)",
+						"numCmd": "MPMK (VS1) (Karin Orochi)",
 						"cmnCmd": "[KARIN] Command Dash > Shoulder",
 						"startup": "4+11",
 						"active": 4,
@@ -78495,7 +78495,7 @@
 				{
 						"moveName": "Install Art (Ken)",
 						"plnCmd": "MP+MK (Ken)",
-						"numCmd": "MPMK (Ken)",
+						"numCmd": "MPMK (VS1) (Ken)",
 						"cmnCmd": "[KEN] DP",
 						"startup": 4,
 						"active": "2*2*9",
@@ -78521,7 +78521,7 @@
 				{
 						"moveName": "Install Art (Kolin: Vanity Step)",
 						"plnCmd": "MP+MK (Kolin Vanity Step)",
-						"numCmd": "MPMK (Kolin Vanity Step)",
+						"numCmd": "MPMK (VS1) (Kolin Vanity Step)",
 						"cmnCmd": "[KOLIN] Vanity Step",
 						"startup": 23,
 						"active": "~",
@@ -78544,7 +78544,7 @@
 				{
 						"moveName": "Install Art (Kolin: Silver Edge)",
 						"plnCmd": "MP+MK (Kolin Silver Edge)",
-						"numCmd": "MPMK (Kolin Silver Edge)",
+						"numCmd": "MPMK (VS1) (Kolin Silver Edge)",
 						"cmnCmd": "[KOLIN] Vanity Step > Dash Punch",
 						"startup": "23+8",
 						"active": 9,
@@ -78570,7 +78570,7 @@
 				{
 						"moveName": "Install Art (Laura: Thunder Clap lvl 1)",
 						"plnCmd": "MP+MK (Laura Fireball lvl 1)",
-						"numCmd": "MPMK (Laura Fireball lvl 1)",
+						"numCmd": "MPMK (VS1)",
 						"cmnCmd": "[LAURA] Fireball lvl 1",
 						"startup": 19,
 						"active": 40,
@@ -78593,7 +78593,7 @@
 				{
 						"moveName": "Install Art (Laura: Thunder Clap lvl 2)",
 						"plnCmd": "MP+MK (Laura Fireball lvl 2)",
-						"numCmd": "MPMK (Laura Fireball lvl 2)",
+						"numCmd": "MPMK (VS1) (hold)",
 						"cmnCmd": "[LAURA] Fireball lvl 2",
 						"startup": 41,
 						"active": 80,
@@ -78616,7 +78616,7 @@
 				{
 						"moveName": "Install Art (Laura: Thunder Clap lvl 3)",
 						"plnCmd": "MP+MK (Laura Fireball lvl 3)",
-						"numCmd": "MPMK (Laura Fireball lvl 3)",
+						"numCmd": "MPMK (VS1) (hold)",
 						"cmnCmd": "[LAURA] Fireball lvl 3",
 						"startup": 70,
 						"active": 100,
@@ -78639,7 +78639,7 @@
 				{
 						"moveName": "Install Art (Lucia)",
 						"plnCmd": "MP+MK (Lucia)",
-						"numCmd": "MPMK (Lucia)",
+						"numCmd": "MPMK (VS1) (Lucia)",
 						"cmnCmd": "[LUCIA] Fire Sobat Kick",
 						"startup": 21,
 						"active": 3,
@@ -78665,7 +78665,7 @@
 				{
 						"moveName": "Install Art (Menat: Soul Sphere)",
 						"plnCmd": "MP+MK (Menat Soul Sphere)",
-						"numCmd": "MPMK (Menat Soul Sphere)",
+						"numCmd": "MPMK (VS1) (Menat Soul Sphere)",
 						"cmnCmd": "[MENAT] Orb Set",
 						"startup": 14,
 						"active": "3(26)",
@@ -78688,7 +78688,7 @@
 				{
 						"moveName": "Install Art (Menat: Soul Sphere Ankh)",
 						"plnCmd": "MP+MK (Menat Soul Sphere: Ankh)",
-						"numCmd": "MPMK (Menat Soul Sphere: Ankh)",
+						"numCmd": "MPMK (VS1) (Menat Soul Sphere: Ankh)",
 						"cmnCmd": "[MENAT] Orb Recall",
 						"startup": 5,
 						"active": "~",
@@ -78714,7 +78714,7 @@
 				{
 						"moveName": "Install Art (Nash)",
 						"plnCmd": "MP+MK (Nash)",
-						"numCmd": "MPMK (Nash)",
+						"numCmd": "MPMK (VS1) (Nash)",
 						"cmnCmd": "[NASH] Sonic Scythe",
 						"startup": 15,
 						"active": 3,
@@ -78740,7 +78740,7 @@
 				{
 						"moveName": "Install Art (Necalli: The Disc's Guidance)",
 						"plnCmd": "MP+MK (Necalli Lunge)",
-						"numCmd": "MPMK (Necalli Lunge)",
+						"numCmd": "MPMK (VS1) (Necalli Lunge)",
 						"cmnCmd": "[NECALLI] Lunge",
 						"startup": 21,
 						"active": 3,
@@ -78766,7 +78766,7 @@
 				{
 						"moveName": "Install Art (Necalli: The Disc's Guidance (V-Trigger))",
 						"plnCmd": "MP+MK (Necalli Lunge (V-Trigger))",
-						"numCmd": "MPMK (Necalli Lunge (V-Trigger))",
+						"numCmd": "MPMK (VS1) (Necalli Lunge (V-Trigger))",
 						"cmnCmd": "[NECALLI] Lunge (V-Trigger)",
 						"startup": 18,
 						"active": 5,
@@ -78792,7 +78792,7 @@
 				{
 						"moveName": "Install Art (Poison)",
 						"plnCmd": "MP+MK (Poison)",
-						"numCmd": "MPMK (Poison)",
+						"numCmd": "MPMK (VS1) (Poison)",
 						"cmnCmd": "[POISON] Flip Kick",
 						"startup": 21,
 						"active": 3,
@@ -78815,7 +78815,7 @@
 				{
 						"moveName": "Install Art (Rashid)",
 						"plnCmd": "MP+MK (Rashid)",
-						"numCmd": "MPMK (Rashid)",
+						"numCmd": "MPMK (VS1) (Rashid)",
 						"cmnCmd": "[RASHID] Lunge Kick",
 						"startup": "15(11)",
 						"active": 8,
@@ -78841,7 +78841,7 @@
 				{
 						"moveName": "Install Art (R.Mika)",
 						"plnCmd": "MP+MK (R.Mika)",
-						"numCmd": "MPMK (R.Mika)",
+						"numCmd": "MPMK (VS1) (R.Mika)",
 						"cmnCmd": "[R.MIKA] Buttocks Lunge",
 						"startup": 20,
 						"active": 13,
@@ -78867,7 +78867,7 @@
 				{
 						"moveName": "Install Art (Ryu)",
 						"plnCmd": "MP+MK (Ryu)",
-						"numCmd": "MPMK (Ryu)",
+						"numCmd": "MPMK (VS1) (Ryu)",
 						"cmnCmd": "[RYU] Fireball",
 						"startup": 14,
 						"active": "~",
@@ -78890,7 +78890,7 @@
 				{
 						"moveName": "Install Art (Sagat)",
 						"plnCmd": "MP+MK (Sagat)",
-						"numCmd": "MPMK (Sagat)",
+						"numCmd": "MPMK (VS1) (Sagat)",
 						"cmnCmd": "[SAGAT] Knee",
 						"startup": 20,
 						"active": 11,
@@ -78916,7 +78916,7 @@
 				{
 						"moveName": "Install Art (Sakura)",
 						"plnCmd": "MP+MK (Sakura)",
-						"numCmd": "MPMK (Sakura)",
+						"numCmd": "MPMK (VS1) (Sakura)",
 						"cmnCmd": "[SAKURA] Tatsu",
 						"startup": 24,
 						"active": "3(8)2(10)3",
@@ -78939,7 +78939,7 @@
 				{
 						"moveName": "Install Art (Seth)",
 						"plnCmd": "MP+MK (Seth)",
-						"numCmd": "MPMK (Seth)",
+						"numCmd": "MPMK (VS1) (Seth)",
 						"cmnCmd": "[SETH] Brutal Impact",
 						"startup": 15,
 						"active": 2,
@@ -78965,7 +78965,7 @@
 				{
 						"moveName": "Install Art (Urien)",
 						"plnCmd": "MP+MK (Urien)",
-						"numCmd": "MPMK (Urien)",
+						"numCmd": "MPMK (VS1) (Urien)",
 						"cmnCmd": "[URIEN] Tackle",
 						"startup": 10,
 						"active": 6,
@@ -78988,7 +78988,7 @@
 				{
 						"moveName": "Install Art (Zangief)",
 						"plnCmd": "MP+MK (Zangief)",
-						"numCmd": "MPMK (Zangief)",
+						"numCmd": "MPMK (VS1) (Zangief)",
 						"cmnCmd": "[ZANGIEF] SPD",
 						"startup": 5,
 						"active": 2,
@@ -79014,7 +79014,7 @@
 				{
 						"moveName": "Install Art (Zeku - Old)",
 						"plnCmd": "MP+MK (Zeku - Old)",
-						"numCmd": "MPMK (Zeku - Old)",
+						"numCmd": "MPMK (VS1) (Zeku - Old)",
 						"cmnCmd": "[ZEKU (OLD)] Back Gram",
 						"startup": 23,
 						"active": 2,
@@ -79040,7 +79040,7 @@
 				{
 						"moveName": "Install Art (Zeku - Old: Gram Projectile)",
 						"plnCmd": "MP+MK (Zeku - Old) (Gram Projectile)",
-						"numCmd": "MPMK (Zeku - Old) (Gram Projectile)",
+						"numCmd": "MPMK (VS1) (Zeku - Old) (Gram Projectile)",
 						"cmnCmd": "[ZEKU (OLD)] Back Gram (Projectile)",
 						"startup": 25,
 						"active": 14,
@@ -79063,7 +79063,7 @@
 				{
 						"moveName": "Install Art (Zeku - Young)",
 						"plnCmd": "MP+MK (Zeku - Young)",
-						"numCmd": "MPMK (Zeku - Young)",
+						"numCmd": "MPMK (VS1) (Zeku - Young)",
 						"cmnCmd": "[ZEKU (YOUNG)] Shoulder",
 						"startup": 22,
 						"active": 6,
@@ -79110,7 +79110,7 @@
 				{
 						"moveName": "Hecatoncheires Glide",
 						"plnCmd": "MP+MK > qcf+P (VS2)",
-						"numCmd": "MPMK > 236P (VS2)",
+						"numCmd": "MPMK (VS2) > 236P",
 						"cmnCmd": "VSkill 2 Rapid Punch",
 						"startup": "11+14",
 						"active": "2(4)2(4)2(4)2(4)2(4)2(4)2(4)2",
@@ -79133,7 +79133,7 @@
 				{
 						"moveName": "Mad Spiral",
 						"plnCmd": "MP+MK > f,df,f+P (VS2)",
-						"numCmd": "MPMK > 623P (VS2)",
+						"numCmd": "MPMK (VS2) > 623P",
 						"cmnCmd": "VSkill 2 DP",
 						"startup": "11+7",
 						"active": 18,
@@ -79159,7 +79159,7 @@
 				{
 						"moveName": "Spin Pendulum",
 						"plnCmd": "MP+MK > qcb+K (VS2)",
-						"numCmd": "MPMK > 214K (VS2)",
+						"numCmd": "MPMK (VS2) > 214K",
 						"cmnCmd": "VSkill 2 Tatsu",
 						"startup": "11+5",
 						"active": "2(2)2(2)2(2)2(2)2(10)3",
@@ -79185,7 +79185,7 @@
 				{
 						"moveName": "Tanden Booster (Stop)",
 						"plnCmd": "MP+MK > MP+MK (VS2)",
-						"numCmd": "MPMK > MPMK (VS2)",
+						"numCmd": "MPMK (VS2) > MPMK",
 						"cmnCmd": "VSkill 2 Stop",
 						"startup": 11,
 						"active": "~",
@@ -79686,7 +79686,7 @@
 					{
 							"moveName": "Titanomachy",
 							"plnCmd": "qcf+P > HP+HK",
-							"numCmd": "236P > HPHK",
+							"numCmd": "236P > HPHK (VT1)",
 							"cmnCmd": "Teleport Punch",
 							"startup": 13,
 							"active": 5,
@@ -79709,7 +79709,7 @@
 					{
 							"moveName": "Mad Spin",
 							"plnCmd": "f,df,f+P > HP+HK",
-							"numCmd": "623P > HPHK",
+							"numCmd": "623P > HPHK (VT1)",
 							"cmnCmd": "Air Drill",
 							"startup": 7,
 							"active": "4x16(64)",
@@ -79732,7 +79732,7 @@
 					{
 							"moveName": "Mad Spin Special Edition",
 							"plnCmd": "MP+MK > HP+HK",
-							"numCmd": "MPMK > HPHK",
+							"numCmd": "MPMK > HPHK (VT1)",
 							"cmnCmd": "Teleport Stomp",
 							"startup": 11,
 							"active": 2,
@@ -79758,7 +79758,7 @@
 					{
 							"moveName": "Cyclone Disaster",
 							"plnCmd": "qcb+K > HP+HK",
-							"numCmd": "214K > HPHK",
+							"numCmd": "214K > HPHK (VT1)",
 							"cmnCmd": "Teleport Spin Kick",
 							"startup": 8,
 							"active": "4(4)3(10)4",
@@ -79781,7 +79781,7 @@
 					{
 							"moveName": "Hell's Gate",
 							"plnCmd": "qcb+K (air) > HP+HK",
-							"numCmd": "214K (air) > HPHK",
+							"numCmd": "214K (air) > HPHK (VT1)",
 							"cmnCmd": "Teleport Uppercut",
 							"startup": 5,
 							"active": 8,
