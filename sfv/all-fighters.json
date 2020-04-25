@@ -12535,7 +12535,7 @@
 				{
 						"moveName": "Bull Horn",
 						"plnCmd": "hold any button, release",
-						"numCmd": "hold any button, release",
+						"numCmd": "(hold) P or K (release)",
 						"cmnCmd": "Headbutt",
 						"startup": "15",
 						"active": "6",
@@ -12569,7 +12569,7 @@
 				{
 						"moveName": "Bull Horn EX",
 						"plnCmd": "hold any 2 button, release",
-						"numCmd": "hold any 2 button, release",
+						"numCmd": "(hold) PP or KK (release)",
 						"cmnCmd": "EX Headbutt",
 						"startup": "15",
 						"active": "9(11)4",
@@ -12841,7 +12841,7 @@
 				{
 						"moveName": "Hanging Chain Cancel",
 						"plnCmd": "hold K, press P",
-						"numCmd": "hold K, press P",
+						"numCmd": "236K (hold) > P",
 						"cmnCmd": "Chain Cancel",
 						"startup": "~",
 						"active": "~",
@@ -14019,7 +14019,7 @@
 					{
 							"moveName": "Bull Horn",
 							"plnCmd": "hold any button, release",
-							"numCmd": "hold any button, release",
+							"numCmd": "(hold) P or K (release)",
 							"cmnCmd": "Headbutt",
 							"startup": "15",
 							"active": "12",
@@ -14049,7 +14049,7 @@
 					{
 							"moveName": "Bull Horn EX",
 							"plnCmd": "hold any 2 button, release",
-							"numCmd": "hold any 2 button, release",
+							"numCmd": "(hold) PP or KK (release)",
 							"cmnCmd": "EX Headbutt",
 							"startup": "15",
 							"active": "2(1)2(3)2(11)4",
@@ -14709,7 +14709,7 @@
 					{
 							"moveName": "Bull Swing",
 							"plnCmd": "HP+HK (VT2)",
-							"numCmd": "HPHK",
+							"numCmd": "HPHK (VT2)",
 							"cmnCmd": "Vtrigger 2 Chain",
 							"startup": 21,
 							"active": "8(21)2",
@@ -14738,7 +14738,7 @@
 					{
 							"moveName": "Bull Capture",
 							"plnCmd": "d+HP+HK (VT2)",
-							"numCmd": "2HPHK",
+							"numCmd": "2HPHK (VT2)",
 							"cmnCmd": "Vtrigger 2 Low Chain",
 							"startup": 19,
 							"active": "8(21)2",
@@ -17929,7 +17929,7 @@
 				{
 						"moveName": "Delta Twist",
 						"plnCmd": "HP+HK > P  (VT2)",
-						"numCmd": "HPHK > P",
+						"numCmd": "HPHK (VT2) > P",
 						"cmnCmd": "VTrigger 2 Throw",
 						"startup": "12+5",
 						"active": 2,
@@ -17955,7 +17955,7 @@
 				{
 						"moveName": "Reverse Edge",
 						"plnCmd": "HP+HK > K  (VT2)",
-						"numCmd": "HPHK > K",
+						"numCmd": "HPHK (VT2) > K",
 						"cmnCmd": "VTrigger 2 Flip Kick",
 						"startup": "12+10",
 						"active": "4*3",
@@ -18527,7 +18527,7 @@
 				{
 						"moveName": "Cross Scissors Pressure",
 						"plnCmd": "hcf+P > LP+LK (air)",
-						"numCmd": "41236P > LP+LK (air)",
+						"numCmd": "41236P > LPLK (air)",
 						"cmnCmd": "Hooligan > Air Throw",
 						"startup": "24+4",
 						"active": 2,
@@ -18872,7 +18872,7 @@
 					{
 							"moveName": "Delta Step",
 							"plnCmd": "f+HP+HK",
-							"numCmd": "6HPHK",
+							"numCmd": "6HPHK (VT2)",
 							"cmnCmd": "VTrigger 2 Dash",
 							"startup": "~",
 							"active": "~",
@@ -18901,7 +18901,7 @@
 					{
 							"moveName": "Delta Ambush",
 							"plnCmd": "HP+HK (VT2)",
-							"numCmd": "HPHK",
+							"numCmd": "HPHK (VT2)",
 							"cmnCmd": "VTrigger 2 Jump",
 							"startup": 24,
 							"active": "~",
@@ -18930,7 +18930,7 @@
 					{
 							"moveName": "Delta Twist",
 							"plnCmd": "HP+HK > P",
-							"numCmd": "HPHK > P",
+							"numCmd": "HPHK (VT2) > P",
 							"cmnCmd": "VTrigger 2 Throw",
 							"startup": "24+5",
 							"active": 2,
@@ -18956,7 +18956,7 @@
 					{
 							"moveName": "Reverse Edge",
 							"plnCmd": "HP+HK > K",
-							"numCmd": "HPHK > K",
+							"numCmd": "HPHK (VT2) > K",
 							"cmnCmd": "VTrigger 2 Flip Kick",
 							"startup": "24+10",
 							"active": "4*3",
@@ -19766,7 +19766,7 @@
 				{
 						"moveName": "Yosokyaku",
 						"plnCmd": "d+MK during jump",
-						"numCmd": "2MK (air)",
+						"numCmd": "j.2MK",
 						"cmnCmd": "Air Stomps",
 						"startup": "5+4+5",
 						"active": 4,
@@ -21190,7 +21190,7 @@
 					{
 							"moveName": "Yosokyaku",
 							"plnCmd": "d or df+MK during jump",
-							"numCmd": "2 or 3HK (air)",
+							"numCmd": "2 or 3MK (air)",
 							"cmnCmd": "Air Stomps",
 							"startup": "5+4+5",
 							"active": 4,
@@ -21584,7 +21584,7 @@
 					{
 							"moveName": "Air Hyakuretsukyaku EX",
 							"plnCmd": "qcf+KK(air)",
-							"numCmd": "236KK(air)",
+							"numCmd": "236KK (air)",
 							"cmnCmd": "EX Legs (air)",
 							"startup": 6,
 							"active": "2(1)2(2)2(3)2(1)2(2)2(3)2",
@@ -21610,7 +21610,7 @@
 					{
 							"moveName": "Spinning Bird Kick LK",
 							"plnCmd": "d,u+LK",
-							"numCmd": "28+LK",
+							"numCmd": "28LK",
 							"cmnCmd": "LK Spinning Bird Kick",
 							"startup": 9,
 							"active": "2(1)2(4)2(5)2(3)2",
@@ -21638,7 +21638,7 @@
 					{
 							"moveName": "Spinning Bird Kick MK",
 							"plnCmd": "d,u+MK",
-							"numCmd": "28+MK",
+							"numCmd": "28MK",
 							"cmnCmd": "MK Spinning Bird Kick",
 							"startup": 15,
 							"active": "2(1)2(4)2(4)2(3)2(6)2(5)2",
@@ -21666,7 +21666,7 @@
 					{
 							"moveName": "Spinning Bird Kick HK",
 							"plnCmd": "d,u+HK",
-							"numCmd": "28+HK",
+							"numCmd": "28HK",
 							"cmnCmd": "HK Spinning Bird Kick",
 							"startup": 19,
 							"active": "2(1)2(4)2(4)2(4)2(5)2(4)2(5)2(5)2",
@@ -21694,7 +21694,7 @@
 					{
 							"moveName": "Spinning Bird Kick EX",
 							"plnCmd": "d,u+KK",
-							"numCmd": "28+KK",
+							"numCmd": "28KK",
 							"cmnCmd": "EX Spinning Bird Kick",
 							"startup": 5,
 							"active": "7(1)4(1)4(1)2",
@@ -21724,7 +21724,7 @@
 					{
 							"moveName": "Kikosho (release)",
 							"plnCmd": "HP+HK (release)",
-							"numCmd": "HPHK (release)",
+							"numCmd": "HPHK (VT2) (release)",
 							"cmnCmd": "Kikosho lvl 1",
 							"startup": 16,
 							"active": 12,
@@ -21750,7 +21750,7 @@
 					{
 							"moveName": "Kikosho (hold)",
 							"plnCmd": "HP+HK (hold)",
-							"numCmd": "HPHK (hold)",
+							"numCmd": "HPHK (VT2) (hold)",
 							"cmnCmd": "Kikosho lvl 2",
 							"startup": 49,
 							"active": 24,
@@ -29705,7 +29705,7 @@
 				{
 						"moveName": "Sodokubu Parry",
 						"plnCmd": "Parry",
-						"numCmd": "Parry",
+						"numCmd": "MPMK (VS2)",
 						"cmnCmd": "Parry Attack",
 						"startup": "3",
 						"active": "2(5)2(9)2(7)2",
@@ -30449,7 +30449,7 @@
 					{
 							"moveName": "Sodokubu Parry",
 							"plnCmd": "Parry Attack",
-							"numCmd": "Parry",
+							"numCmd": "MPMK (VS2)",
 							"cmnCmd": "Parry",
 							"startup": "3",
 							"active": "2(5)2(9)2(7)2",
@@ -44912,7 +44912,7 @@
 				},
 				{
 						"moveName": "Ku-Renge",
-						"plnCmd": "j.MP > j.HP (air)",
+						"plnCmd": "j.MP > HP",
 						"numCmd": "8MP > 8HP",
 						"cmnCmd": "Air Target Combo",
 						"startup": "6+7",
@@ -45982,7 +45982,7 @@
 					{
 							"moveName": "Yasha Gaeshi (stance)",
 							"plnCmd": "HP+HK (parry)",
-							"numCmd": "HPHK (parry)",
+							"numCmd": "HPHK (VT2)",
 							"cmnCmd": "VTrigger 2 parry",
 							"startup": 2,
 							"active": 12,
@@ -46004,7 +46004,7 @@
 					{
 							"moveName": "Yasha Gaeshi Ten",
 							"plnCmd": "HP+HK (parry high)",
-							"numCmd": "HPHK (parry high)",
+							"numCmd": "HPHK (VT2)",
 							"cmnCmd": "VTrigger 2 Parry High",
 							"startup": 1,
 							"active": 3,
@@ -46030,7 +46030,7 @@
 					{
 							"moveName": "Yasha Gaeshi Chi",
 							"plnCmd": "HP+HK (parry low)",
-							"numCmd": "HPHK (parry low)",
+							"numCmd": "HPHK (VT2))",
 							"cmnCmd": "VTrigger 2 Parry Low",
 							"startup": 1,
 							"active": 3,
@@ -46995,7 +46995,7 @@
 				{
 						"moveName": "Shinryuken lvl 2",
 						"plnCmd": "HP+HK + P (mash)",
-						"numCmd": "HPHK + P (mash)",
+						"numCmd": "HPHK (VT2) > P (mash)",
 						"cmnCmd": "VTrigger 2 lvl 2",
 						"startup": "9(7)",
 						"active": "4(3)3(2)3(2)3(2)2(2)2(2)2(2)2(2)2(2)2(2)2(2)3",
@@ -47021,7 +47021,7 @@
 				{
 						"moveName": "Shinryuken lvl 3",
 						"plnCmd": "HP+HK + P (mash max)",
-						"numCmd": "HPHK + P (mash max)",
+						"numCmd": "HPHK (VT2) > P (mash)",
 						"cmnCmd": "VTrigger 2 lvl 3",
 						"startup": "9(7)",
 						"active": "4(3)3(2)3(2)3(2)2(2)2(2)2(2)2(2)2(2)2(2)2(2)2(1)2(1)2(1)2(1)3",
@@ -48024,7 +48024,7 @@
 					{
 							"moveName": "Shinryuken lvl 1",
 							"plnCmd": "HP+HK (VT2)",
-							"numCmd": "HPHK",
+							"numCmd": "HPHK (VT2)",
 							"cmnCmd": "VTrigger 2 lvl 1",
 							"startup": "9(7)",
 							"active": "2(1)2(2)3(2)3(2)3(2)3",
@@ -48050,7 +48050,7 @@
 					{
 							"moveName": "Shinryuken lvl 2",
 							"plnCmd": "HP+HK + P (mash)",
-							"numCmd": "HPHK + P (mash)",
+							"numCmd": "HPHK (VT2) > P (mash)",
 							"cmnCmd": "VTrigger 2 lvl 2",
 							"startup": "9(7)",
 							"active": "2(1)2(2)3(2)3(2)3(2)2(2)2(2)2(2)2(2)2(2)2(2)3",
@@ -52198,7 +52198,7 @@
 				{
 						"moveName": "Thunder Clap Lvl 2",
 						"plnCmd": "qcb+P (brief-hold)",
-						"numCmd": "214P (brief-hold)",
+						"numCmd": "214P (hold)",
 						"cmnCmd": "Fireball Lvl 2",
 						"startup": 41,
 						"active": 80,
@@ -52779,7 +52779,7 @@
 					{
 							"moveName": "Thunder Clap Lvl 2",
 							"plnCmd": "qcb+P (brief-hold)",
-							"numCmd": "214P (brief-hold)",
+							"numCmd": "214P (hold)",
 							"cmnCmd": "Fireball Lvl 2",
 							"startup": 25,
 							"active": 80,
@@ -53045,7 +53045,7 @@
 					{
 							"moveName": "Matsuda Sway",
 							"plnCmd": "HP+HK",
-							"numCmd": "HPHK",
+							"numCmd": "HPHK (VT2)",
 							"cmnCmd": "Sway",
 							"startup": "4(13)",
 							"active": 30,
@@ -53072,7 +53072,7 @@
 					{
 							"moveName": "Shock Choke",
 							"plnCmd": "HP+HK > HP+HK",
-							"numCmd": "HPHK > HPHK",
+							"numCmd": "HPHK (VT2) > HPHK",
 							"cmnCmd": "Sway > Grab",
 							"startup": "13+7",
 							"active": 2,
@@ -53098,7 +53098,7 @@
 					{
 							"moveName": "Matsuda Sway > V-Skill 1 Dash",
 							"plnCmd": "HP+HK > MP+MK (VS1)",
-							"numCmd": "HPHK > MPMK (VS1)",
+							"numCmd": "HPHK (VT2) > MPMK (VS1)",
 							"cmnCmd": "Sway > VSkill 1",
 							"startup": 13,
 							"active": "~",
@@ -53125,7 +53125,7 @@
 					{
 							"moveName": "Matsuda Sway > V-Skill Dash > Shock Choke",
 							"plnCmd": "HP+HK > MP+MK > HP+HK",
-							"numCmd": "HPHK > MPMK > HPHK",
+							"numCmd": "HPHK (VT2) > MPMK (VS1) > HPHK",
 							"cmnCmd": "Sway > VSkill 1 > Grab",
 							"startup": "13+18+7",
 							"active": 2,
@@ -53151,7 +53151,7 @@
 					{
 							"moveName": "Matsuda Sway > V-Skill Dash > Volty Line",
 							"plnCmd": "HP+HK > MP+MK (hold)",
-							"numCmd": "HPHK > MPMK (hold)",
+							"numCmd": "HPHK (VT2) > MPMK (VS1) (hold)",
 							"cmnCmd": "Sway > VSkill 1 Overhead",
 							"startup": "13+19",
 							"active": 6,
@@ -55726,7 +55726,7 @@
 				{
 						"moveName": "Hell Attack",
 						"plnCmd": "j.MP > j.MP",
-						"numCmd": "8MP > 8MP",
+						"numCmd": "j.MP > MP",
 						"cmnCmd": "MP > MP (air)",
 						"startup": "7+5",
 						"active": 4,
@@ -55859,7 +55859,7 @@
 				{
 						"moveName": "Psycho Reflect",
 						"plnCmd": "MP+MK (VS1)",
-						"numCmd": "MPMK (VS1) (release)",
+						"numCmd": "MPMK (VS1)",
 						"cmnCmd": "VSkill 1",
 						"startup": 6,
 						"active": "7(9)",
@@ -56411,7 +56411,7 @@
 				{
 						"moveName": "Somersault Skull Diver",
 						"plnCmd": "P after head press",
-						"numCmd": "P after head press",
+						"numCmd": "28K > P",
 						"cmnCmd": "Head Stomp > P",
 						"startup": 5,
 						"active": 10,
@@ -56437,7 +56437,7 @@
 				{
 						"moveName": "Devil Reverse",
 						"plnCmd": "P before head press",
-						"numCmd": "P before head press",
+						"numCmd": "28K > P",
 						"cmnCmd": "Devil Reverse",
 						"startup": 15,
 						"active": 22,
@@ -56463,7 +56463,7 @@
 				{
 						"moveName": "Devil Reverse EX",
 						"plnCmd": "PP before head press",
-						"numCmd": "PP before head press",
+						"numCmd": "28K > PP",
 						"cmnCmd": "EX Devil Reverse",
 						"startup": 26,
 						"active": 12,
@@ -57192,7 +57192,7 @@
 					{
 							"moveName": "Psycho Crusher",
 							"plnCmd": "HP+HK",
-							"numCmd": "HPHK",
+							"numCmd": "HPHK (VT2)",
 							"cmnCmd": "Psycho Crusher",
 							"startup": 14,
 							"active": 17,
@@ -57218,7 +57218,7 @@
 					{
 							"moveName": "Psycho Charge",
 							"plnCmd": "hcb+k",
-							"numCmd": "63214+K",
+							"numCmd": "63214K",
 							"cmnCmd": "Command Grab",
 							"startup": 6,
 							"active": 2,
@@ -57244,7 +57244,7 @@
 					{
 							"moveName": "Psycho Judgement",
 							"plnCmd": "hcb+k (bomb)",
-							"numCmd": "63214+K (bomb)",
+							"numCmd": "63214K",
 							"cmnCmd": "Bomb activation",
 							"startup": 15,
 							"active": 12,
@@ -59772,7 +59772,7 @@
 				{
 						"moveName": "neutral jump HK",
 						"plnCmd": "u+HK",
-						"numCmd": "8HK",
+						"numCmd": "(air) 8HK",
 						"cmnCmd": "Air Somersault",
 						"startup": 8,
 						"active": 6,
@@ -60308,7 +60308,7 @@
 				{
 						"moveName": "Sonic Move - Hide",
 						"plnCmd": "HP+HK (VT1)",
-						"numCmd": "HPHK",
+						"numCmd": "HPHK (VT1)",
 						"cmnCmd": "VTrigger 1 Behind",
 						"startup": 4,
 						"active": "~",
@@ -60335,7 +60335,7 @@
 				{
 						"moveName": "Sonic Move - Bliz Air",
 						"plnCmd": "b+HP+HK",
-						"numCmd": "4HPHK",
+						"numCmd": "4HPHK (VT1)",
 						"cmnCmd": "VTrigger 1 Front (Air)",
 						"startup": 4,
 						"active": "~",
@@ -60362,7 +60362,7 @@
 				{
 						"moveName": "Sonic Move - Steel Air",
 						"plnCmd": "f+HP+HK",
-						"numCmd": "6HPHK",
+						"numCmd": "6HPHK (VT1)",
 						"cmnCmd": "VTrigger 1 Behind (Air)",
 						"startup": 4,
 						"active": "~",
@@ -60736,7 +60736,7 @@
 				{
 						"moveName": "Sonic Scythe LK (V-Skill 2)",
 						"plnCmd": "qcb+LK",
-						"numCmd": "214LK",
+						"numCmd": "214LK (VS2)",
 						"cmnCmd": "LK Scythe (V-Skill 2)",
 						"startup": 10,
 						"active": "3(6)",
@@ -60766,7 +60766,7 @@
 				{
 						"moveName": "Sonic Scythe MK (V-Skill 2)",
 						"plnCmd": "qcb+MK",
-						"numCmd": "214MK",
+						"numCmd": "214MK (VS2)",
 						"cmnCmd": "MK Scythe (V-Skill 2)",
 						"startup": 15,
 						"active": "3*3",
@@ -60796,7 +60796,7 @@
 				{
 						"moveName": "Sonic Scythe HK (V-Skill 2)",
 						"plnCmd": "qcb+HK",
-						"numCmd": "214HK",
+						"numCmd": "214HK (VS2)",
 						"cmnCmd": "HK Scythe (V-Skill 2)",
 						"startup": 13,
 						"active": "2(3)3*2",
@@ -60826,7 +60826,7 @@
 				{
 						"moveName": "Sonic Scythe EX (V-Skill 2)",
 						"plnCmd": "qcb+KK",
-						"numCmd": "214KK",
+						"numCmd": "214KK (VS2)",
 						"cmnCmd": "EX Scythe (V-Skill 2)",
 						"startup": 6,
 						"active": "3*3*3(26)2*2*3",
@@ -61096,7 +61096,7 @@
 					{
 							"moveName": "Stealth Dash > Stop",
 							"plnCmd": "HP+HK > b",
-							"numCmd": "HPHK > 4",
+							"numCmd": "HPHK (VT2) > 4",
 							"cmnCmd": "VTrigger 2 Dash Stop",
 							"startup": "13(4)",
 							"active": "~",
@@ -61124,7 +61124,7 @@
 					{
 							"moveName": "Stealth Dash > Justice Corridor",
 							"plnCmd": "HP+HK > P",
-							"numCmd": "HPHK > P",
+							"numCmd": "HPHK (VT2) > P",
 							"cmnCmd": "VTrigger 2 Dash Overhead",
 							"startup": "42(34)",
 							"active": "3*3",
@@ -61152,7 +61152,7 @@
 					{
 							"moveName": "Stealth Dash > Justice Shell",
 							"plnCmd": "HP+HK > K",
-							"numCmd": "HPHK > K",
+							"numCmd": "HPHK (VT2) > K",
 							"cmnCmd": "VTrigger 2 Dash Launcher",
 							"startup": "23(15)",
 							"active": "4(2)4",
@@ -61818,7 +61818,7 @@
 				{
 						"moveName": "Road of the Sun (air)",
 						"plnCmd": "Forward Jump > d+HK",
-						"numCmd": "9 > 2HK",
+						"numCmd": "j.2HK",
 						"cmnCmd": "Divekick",
 						"startup": 14,
 						"active": 12,
@@ -61976,7 +61976,7 @@
 				{
 						"moveName": "Culminated Power",
 						"plnCmd": "n or b or f+MP+MK (VS1)",
-						"numCmd": "4 or 5 or 6+MPMK (VS1)",
+						"numCmd": "MPMK (VS1)",
 						"cmnCmd": "VSkill 1 (Pound)",
 						"startup": 25,
 						"active": 3,
@@ -63133,7 +63133,7 @@
 					{
 							"moveName": "Road of the Sun (air)",
 							"plnCmd": "Forward Jump > d+HK",
-							"numCmd": "9 > 2HP",
+							"numCmd": "j.2HP",
 							"cmnCmd": "Divekick",
 							"startup": 14,
 							"active": 12,
@@ -63288,7 +63288,7 @@
 					{
 							"moveName": "Culminated Power",
 							"plnCmd": "n or b or f+MP+MK (VS1)",
-							"numCmd": "4 or 5 or 6+MPMK (VS1)",
+							"numCmd": "MPMK (VS1)",
 							"cmnCmd": "VSkill 1 (Pound)",
 							"startup": 20,
 							"active": 3,
@@ -63340,7 +63340,7 @@
 					{
 							"moveName": "Clouded Mirror",
 							"plnCmd": "HP+HK (VT1)",
-							"numCmd": "HPHK ",
+							"numCmd": "HPHK (VT1)",
 							"cmnCmd": "VTrigger 1 Leap",
 							"startup": 43,
 							"active": "2(1)2",
@@ -64388,7 +64388,7 @@
 					{
 							"moveName": "Road of the Sun (air)",
 							"plnCmd": "uf > d+HK",
-							"numCmd": "9 > 2HP",
+							"numCmd": "j.2HP",
 							"cmnCmd": "Divekick",
 							"startup": 14,
 							"active": 12,
@@ -64595,7 +64595,7 @@
 					{
 							"moveName": "Heart of Gold",
 							"plnCmd": "HP+HK (VT2)",
-							"numCmd": "HPHK",
+							"numCmd": "HPHK (VT2)",
 							"cmnCmd": "VTrigger 2 Fireball",
 							"startup": 28,
 							"active": 50,
@@ -67385,7 +67385,7 @@
 				{
 						"moveName": "Spinning Mixer (run)",
 						"plnCmd": "f+P during run",
-						"numCmd": "Run > 6P",
+						"numCmd": "6 6 > 6P",
 						"cmnCmd": "Run Mixer",
 						"startup": "Run+8",
 						"active": "1*1(2)2(2)1(4)1",
@@ -67411,7 +67411,7 @@
 				{
 						"moveName": "Spinning Mixer (lvl 2) (run)",
 						"plnCmd": "f+P during run (lvl 2)",
-						"numCmd": "Run > 6P (lvl 2)",
+						"numCmd": "6 6 > 6P",
 						"cmnCmd": "Run Mixer (lvl 2)",
 						"startup": "Run+8",
 						"active": "1*1(2)2(2)1(4)1(5)1(4)1(3)1(4)1",
@@ -67437,7 +67437,7 @@
 				{
 						"moveName": "Spinning Mixer (lvl 3) (run)",
 						"plnCmd": "f+P during run (lvl 3)",
-						"numCmd": "Run > 6P (lvl 3)",
+						"numCmd": "6 6 > 6P",
 						"cmnCmd": "Run Mixer (lvl 3)",
 						"startup": "Run+8",
 						"active": "1*1(2)2(2)1(4)1(5)1(4)1(3)1(4)1(4)1(4)1",
@@ -67463,7 +67463,7 @@
 				{
 						"moveName": "Spinning Mixer (run) (wind)",
 						"plnCmd": "f+P during run (wind)",
-						"numCmd": "Run > 6P (wind)",
+						"numCmd": "6 6 > 6P",
 						"cmnCmd": "Run Mixer (wind)",
 						"startup": "Run+8",
 						"active": "1*1(2)2(2)1(5)1(3)1(5)1(3)1(5)1(3)1(5)1",
@@ -67489,7 +67489,7 @@
 				{
 						"moveName": "Eagle Spike (run)",
 						"plnCmd": "f+K during run",
-						"numCmd": "Run > 6K",
+						"numCmd": "6 6 > 6K",
 						"cmnCmd": "Run Spike",
 						"startup": "Run+13",
 						"active": 8,
@@ -67515,7 +67515,7 @@
 				{
 						"moveName": "Eagle Spike (run) (wind)",
 						"plnCmd": "f+K during run (wind)",
-						"numCmd": "Run > 6K (wind)",
+						"numCmd": "6 6 > 6K",
 						"cmnCmd": "Run Spike (wind)",
 						"startup": "Run+13",
 						"active": "~",
@@ -67541,7 +67541,7 @@
 				{
 						"moveName": "Wall Jump",
 						"plnCmd": "uf or df during jump near wall",
-						"numCmd": "j > 9 or 3 (near wall)",
+						"numCmd": "(air) 9 or 3",
 						"cmnCmd": "Wall Jump",
 						"startup": "~",
 						"active": "~",
@@ -67748,7 +67748,7 @@
 				{
 						"moveName": "Rolling Assault",
 						"plnCmd": "d+MP+MK (VS1)",
-						"numCmd": "2MPMK",
+						"numCmd": "2MPMK (VS1)",
 						"cmnCmd": "D+VSkill 1",
 						"startup": "~",
 						"active": "~",
@@ -67775,7 +67775,7 @@
 				{
 						"moveName": "Nail Assault",
 						"plnCmd": "d+MP+MK (VS1) > K",
-						"numCmd": "2MPMK > K",
+						"numCmd": "2MPMK (VS1) > K",
 						"cmnCmd": "D+VSkill 1 > K",
 						"startup": "16+6",
 						"active": 4,
@@ -68114,7 +68114,7 @@
 				{
 						"moveName": "Spinning Mixer LP (lvl 2)",
 						"plnCmd": "qcf+LP (lvl 2)",
-						"numCmd": "236LP (lvl 2)",
+						"numCmd": "236LP (mash)",
 						"cmnCmd": "LP Mixer (lvl 2)",
 						"startup": 8,
 						"active": "1*1(2)2(3)1(4)1",
@@ -68140,7 +68140,7 @@
 				{
 						"moveName": "Spinning Mixer LP (lvl 3)",
 						"plnCmd": "qcf+LP (lvl 3)",
-						"numCmd": "236LP (lvl 3)",
+						"numCmd": "236LP (mash)",
 						"cmnCmd": "LP Mixer (lvl 3)",
 						"startup": 8,
 						"active": "1*1(2)2(3)1(4)1(3)1 (4)1",
@@ -68192,7 +68192,7 @@
 				{
 						"moveName": "Spinning Mixer MP (lvl 2)",
 						"plnCmd": "qcf+MP (lvl 2)",
-						"numCmd": "236MP (lvl 2)",
+						"numCmd": "236MP (mash)",
 						"cmnCmd": "MP Mixer (lvl 2)",
 						"startup": 8,
 						"active": "1*1(2)1(4)1(4)1(3)1 (4)1",
@@ -68218,7 +68218,7 @@
 				{
 						"moveName": "Spinning Mixer MP (lvl 3)",
 						"plnCmd": "qcf+MP (lvl 3)",
-						"numCmd": "236MP (lvl 3)",
+						"numCmd": "236MP (mash)",
 						"cmnCmd": "MP Mixer (lvl 3)",
 						"startup": 8,
 						"active": "1*1(2)1(4)1(4)1(3)1 (4)1(3)1(4)1",
@@ -68270,7 +68270,7 @@
 				{
 						"moveName": "Spinning Mixer HP (lvl 2)",
 						"plnCmd": "qcf+HP (lvl 2)",
-						"numCmd": "236HP (lvl 2)",
+						"numCmd": "236HP (mash)",
 						"cmnCmd": "HP Mixer (lvl 2)",
 						"startup": 5,
 						"active": "2*1(3)2(2)2(2)3(2)3",
@@ -68296,7 +68296,7 @@
 				{
 						"moveName": "Spinning Mixer HP (lvl 3)",
 						"plnCmd": "qcf+HP (lvl 3)",
-						"numCmd": "236HP (lvl 3)",
+						"numCmd": "236HP (mash)",
 						"cmnCmd": "HP Mixer (lvl 3)",
 						"startup": 5,
 						"active": "2*1(3)2(2)2(2)3(2)3(2)3(2)3",
@@ -68374,7 +68374,7 @@
 				{
 						"moveName": "Spinning Mixer EX (lvl 2)",
 						"plnCmd": "qcf+PP (lvl 2)",
-						"numCmd": "236PP (lvl 2)",
+						"numCmd": "236PP (mash)",
 						"cmnCmd": "EX Mixer (lvl 2)",
 						"startup": 8,
 						"active": "~",
@@ -68400,7 +68400,7 @@
 				{
 						"moveName": "Spinning Mixer EX (lvl 3)",
 						"plnCmd": "qcf+PP (lvl 3)",
-						"numCmd": "236PP (lvl 3)",
+						"numCmd": "236PP (mash)",
 						"cmnCmd": "EX Mixer (lvl 3)",
 						"startup": 8,
 						"active": "~",
@@ -68872,7 +68872,7 @@
 				{
 						"moveName": "Forward Dash (run)",
 						"plnCmd": "f,f (hold)",
-						"numCmd": "66 (hold)",
+						"numCmd": "6 6 (hold)",
 						"cmnCmd": "Run",
 						"startup": 9,
 						"active": "~",
@@ -69535,7 +69535,7 @@
 					{
 							"moveName": "Haboob",
 							"plnCmd": "HP+HK ",
-							"numCmd": "HPHK",
+							"numCmd": "HPHK (VT2)",
 							"cmnCmd": "VTrigger 2 Fireball",
 							"startup": 21,
 							"active": "~",
@@ -70189,7 +70189,7 @@
 				{
 						"moveName": "Shooting Star Combo",
 						"plnCmd": "j.MP > j.HP",
-						"numCmd": "j.MP > j.HP",
+						"numCmd": "j.MP > HP",
 						"cmnCmd": "j.MP > j.HP",
 						"startup": "7+8",
 						"active": 5,
@@ -70245,7 +70245,7 @@
 				{
 						"moveName": "Divebomb",
 						"plnCmd": "d+MP during f jump",
-						"numCmd": "9 > 2MP",
+						"numCmd": "j.2MP",
 						"cmnCmd": "Dive splash",
 						"startup": 16,
 						"active": 7,
@@ -70665,7 +70665,7 @@
 				{
 						"moveName": "Nadeshiko (Behind)",
 						"plnCmd": "f+HP+HK",
-						"numCmd": "6HPHK (can hold)",
+						"numCmd": "6HPHK (VT1)",
 						"cmnCmd": "Vtrigger Behind",
 						"startup": 36,
 						"active": 4,
@@ -70691,7 +70691,7 @@
 				{
 						"moveName": "Nadeshiko (Behind) (hold)",
 						"plnCmd": "f+HP+HK (hold)",
-						"numCmd": "6HPHK (hold)",
+						"numCmd": "6HPHK (VT1) (hold)",
 						"cmnCmd": "Vtrigger Behind Hold",
 						"startup": 117,
 						"active": 4,
@@ -71264,7 +71264,7 @@
 					{
 							"moveName": "Steel Chair",
 							"plnCmd": "HP+HK",
-							"numCmd": "HPHK",
+							"numCmd": "HPHK (VT2)",
 							"cmnCmd": "VTrigger 2",
 							"startup": 104,
 							"active": "~",
@@ -71290,7 +71290,7 @@
 					{
 							"moveName": "Fightin' Dirty",
 							"plnCmd": "HP+HK (hold)",
-							"numCmd": "HPHK (hold)",
+							"numCmd": "HPHK (VT2) (hold)",
 							"cmnCmd": "VTrigger 2 (hold)",
 							"startup": "~",
 							"active": "~",
@@ -73309,7 +73309,7 @@
 					{
 							"moveName": "Hadoken Lvl 2",
 							"plnCmd": "qcf+P (hold)",
-							"numCmd": "236P (hold lvl2)",
+							"numCmd": "236P (hold)",
 							"cmnCmd": "Fireball lvl 2",
 							"startup": "20+5",
 							"active": "~",
@@ -73335,7 +73335,7 @@
 					{
 							"moveName": "Hadoken Lvl 3",
 							"plnCmd": "qcf+P (hold)",
-							"numCmd": "236P (hold lvl3)",
+							"numCmd": "236P (hold)",
 							"cmnCmd": "Fireball lvl 3",
 							"startup": "59+6",
 							"active": "~",
@@ -83655,7 +83655,7 @@
 				{
 						"moveName": "Bloody Kiss - Azul",
 						"plnCmd": "HP+HK during forward jump (VT1)",
-						"numCmd": "7HPHK (air) (VT1)",
+						"numCmd": "(air) 7HPHK (VT1)",
 						"cmnCmd": "VTrigger 1 (air)",
 						"startup": 10,
 						"active": "~",
@@ -84071,7 +84071,7 @@
 				{
 						"moveName": "Flying Barcelona Attack EX (claw)",
 						"plnCmd": "f,d,df+2K, then P (claw)",
-						"numCmd": "623KK > p (claw)",
+						"numCmd": "623KK > P (claw)",
 						"cmnCmd": "EX Flying Barcelona > P (claw)",
 						"startup": 9,
 						"active": 5,
@@ -85188,7 +85188,7 @@
 				{
 						"moveName": "Flying Body Press",
 						"plnCmd": "d+HP during jump",
-						"numCmd": "2HP during jump",
+						"numCmd": "j.2HP",
 						"cmnCmd": "d+HP (air)",
 						"startup": 7,
 						"active": 7,
@@ -85214,7 +85214,7 @@
 				{
 						"moveName": "Flying Headbutt",
 						"plnCmd": "u+HP during neutral jump",
-						"numCmd": "8 > 8HP",
+						"numCmd": "8 > j.HP",
 						"cmnCmd": "Air Headbutt",
 						"startup": 8,
 						"active": 5,
@@ -85702,7 +85702,7 @@
 				{
 						"moveName": "Siberian Express LK",
 						"plnCmd": "hcb+LK",
-						"numCmd": "624LK",
+						"numCmd": "63214LK",
 						"cmnCmd": "LK Running Bear Grab",
 						"startup": "17(0)",
 						"active": "40(2)",
@@ -85728,7 +85728,7 @@
 				{
 						"moveName": "Siberian Express MK",
 						"plnCmd": "hcb+MK",
-						"numCmd": "624MK",
+						"numCmd": "63214MK",
 						"cmnCmd": "MK Running Bear Grab",
 						"startup": "23(0)",
 						"active": "38(2)",
@@ -85754,7 +85754,7 @@
 				{
 						"moveName": "Siberian Express HK",
 						"plnCmd": "hcb+HK",
-						"numCmd": "624HK",
+						"numCmd": "63214HK",
 						"cmnCmd": "HK Running Bear Grab",
 						"startup": "30(0)",
 						"active": "37(2)",
@@ -85780,7 +85780,7 @@
 				{
 						"moveName": "Siberian Express EX",
 						"plnCmd": "hcb+KK",
-						"numCmd": "624KK",
+						"numCmd": "63214KK",
 						"cmnCmd": "EX Running Bear Grab",
 						"startup": "15(0)",
 						"active": "46(2)",
@@ -85968,7 +85968,7 @@
 					{
 							"moveName": "Cyclone Lariat (lvl 1)",
 							"plnCmd": "HP+HK (tap)",
-							"numCmd": "HPHK (tap)",
+							"numCmd": "HPHK (VT1)",
 							"cmnCmd": "VTrigger 1 (lvl 1)",
 							"startup": 9,
 							"active": 19,
@@ -85994,7 +85994,7 @@
 					{
 							"moveName": "Cyclone Lariat (lvl 2)",
 							"plnCmd": "HP+HK (brief hold)",
-							"numCmd": "HPHK (brief hold)",
+							"numCmd": "HPHK (VT1) (hold)",
 							"cmnCmd": "VTrigger 1 (lvl 2)",
 							"startup": 9,
 							"active": "~",
@@ -86020,7 +86020,7 @@
 					{
 							"moveName": "Cyclone Lariat (lvl 3)",
 							"plnCmd": "HP+HK (hold)",
-							"numCmd": "HPHK (hold)",
+							"numCmd": "HPHK (VT1) (hold)",
 							"cmnCmd": "VTrigger 1 (lvl 3)",
 							"startup": 9,
 							"active": "3(5)3(9)3(6)3(7)2(4)3(5)2(4)3(5)2",
@@ -86287,7 +86287,7 @@
 					{
 							"moveName": "Screw Pile Driver LP (special move cancel)",
 							"plnCmd": "360+LP",
-							"numCmd": "4268LP (vt2 cancel)",
+							"numCmd": "4268LP",
 							"cmnCmd": "LP SPD (vt2 cancel)",
 							"startup": 5,
 							"active": 2,
@@ -86313,7 +86313,7 @@
 					{
 							"moveName": "Screw Pile Driver MP (special move cancel)",
 							"plnCmd": "360+MP",
-							"numCmd": "4268MP (vt2 cancel)",
+							"numCmd": "4268MP",
 							"cmnCmd": "MP SPD (vt2 cancel)",
 							"startup": 5,
 							"active": 2,
@@ -86339,7 +86339,7 @@
 					{
 							"moveName": "Screw Pile Driver HP (special move cancel)",
 							"plnCmd": "360+HP",
-							"numCmd": "4268HP (vt2 cancel)",
+							"numCmd": "4268HP",
 							"cmnCmd": "HP SPD (vt2 cancel)",
 							"startup": 5,
 							"active": 2,
@@ -86365,7 +86365,7 @@
 					{
 							"moveName": "Screw Pile Driver EX (special move cancel)",
 							"plnCmd": "360+PP",
-							"numCmd": "4268PP (vt2 cancel)",
+							"numCmd": "4268PP",
 							"cmnCmd": "EX SPD (vt2 cancel)",
 							"startup": 5,
 							"active": 2,
