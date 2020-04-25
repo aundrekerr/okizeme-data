@@ -81283,7 +81283,7 @@
 				{
 						"moveName": "2nd Aegis Reflector (far)",
 						"plnCmd": "HP+HK (2nd VT1)",
-						"numCmd": "HPHK (2nd VT1)",
+						"numCmd": "HPHK (VT1)",
 						"cmnCmd": "2nd VTrigger (far)",
 						"startup": "24(10)",
 						"active": "~",
@@ -81311,7 +81311,7 @@
 				{
 						"moveName": "2nd Aegis Reflector (close)",
 						"plnCmd": "b+HP+HK (2nd VT1)",
-						"numCmd": "4HPHK (2nd VT1)",
+						"numCmd": "4HPHK (VT1)",
 						"cmnCmd": "2nd VTrigger (close)",
 						"startup": "14(10)",
 						"active": "~",
@@ -81339,7 +81339,7 @@
 				{
 						"moveName": "2nd Aegis Reflector (air)",
 						"plnCmd": "d+HP+HK (2nd VT1)",
-						"numCmd": "2HPHK (2nd VT1)",
+						"numCmd": "2HPHK (VT1)",
 						"cmnCmd": "2nd VTrigger (air)",
 						"startup": "16(12)",
 						"active": "~",
@@ -82355,7 +82355,7 @@
 					{
 							"moveName": "Tyrant Blaze",
 							"plnCmd": "HP+HK",
-							"numCmd": "HPHK",
+							"numCmd": "HPHK (VT2)",
 							"cmnCmd": "VTrigger 2 Tackle",
 							"startup": "14+6",
 							"active": "9(12)5",
@@ -82382,7 +82382,7 @@
 					{
 							"moveName": "Tyrant Blaze lvl 2",
 							"plnCmd": "HP+HK lvl 2",
-							"numCmd": "HPHK lvl 2",
+							"numCmd": "HPHK (VT2))",
 							"cmnCmd": "VTrigger 2 Tackle (Hold)",
 							"startup": "60+6",
 							"active": "8(10)5(11)9(10)5",
@@ -85214,7 +85214,7 @@
 				{
 						"moveName": "Flying Headbutt",
 						"plnCmd": "u+HP during neutral jump",
-						"numCmd": "8 > j.HP",
+						"numCmd": "8 > j.8HP",
 						"cmnCmd": "Air Headbutt",
 						"startup": 8,
 						"active": 5,
