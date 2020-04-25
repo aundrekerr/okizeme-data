@@ -4565,7 +4565,7 @@
 				{
 						"moveName": "Tenmakujinkyaku",
 						"plnCmd": "Forward Jump > d+MK ",
-						"numCmd": "9 > 2MK",
+						"numCmd": "9 > j.2MK",
 						"cmnCmd": "Divekick",
 						"startup": 16,
 						"active": "~",
@@ -6198,7 +6198,7 @@
 				{
 						"moveName": "Hyakkishu EX > Hyakki Gosai",
 						"plnCmd": "hcf+KK> LPLK",
-						"numCmd": "412362KK> LPLK",
+						"numCmd": "412362KK > LPLK",
 						"cmnCmd": "EX Demon Flip > Throw",
 						"startup": "6*26",
 						"active": "10(11)3",
@@ -7661,7 +7661,7 @@
 				{
 						"moveName": "Flying Cross Chop",
 						"plnCmd": "d+HP (air)",
-						"numCmd": "2HP (air)",
+						"numCmd": "9 > j.2HP",
 						"cmnCmd": "Superman Dive",
 						"startup": "14",
 						"active": "23",
@@ -9506,7 +9506,7 @@
 				{
 						"moveName": "Hard KKB",
 						"plnCmd": "MK > MP > MP+MK (VS1)",
-						"numCmd": "5MK > 5MP > MPMK",
+						"numCmd": "5MK > 5MP > MPMK (VS1)",
 						"cmnCmd": "MK > MP > VSkill 1",
 						"startup": "~",
 						"active": "~",
@@ -15286,7 +15286,7 @@
 				{
 						"moveName": "neutral jump HP",
 						"plnCmd": "u+HP",
-						"numCmd": "8HP",
+						"numCmd": "8 > j.HP",
 						"startup": "8",
 						"active": "4",
 						"recovery": "~",
@@ -16157,7 +16157,7 @@
 				{
 						"moveName": "Vertical Rolling LK",
 						"plnCmd": "d,u+LK",
-						"numCmd": "28LK",
+						"numCmd": "28 LK",
 						"cmnCmd": "LK Up Ball",
 						"startup": "8",
 						"active": "21",
@@ -16184,7 +16184,7 @@
 				{
 						"moveName": "Vertical Rolling MK",
 						"plnCmd": "d,u+MK",
-						"numCmd": "28MK",
+						"numCmd": "28 MK",
 						"cmnCmd": "MK Up Ball",
 						"startup": "7",
 						"active": "16",
@@ -16211,7 +16211,7 @@
 				{
 						"moveName": "Vertical Rolling HK",
 						"plnCmd": "d,u+HK",
-						"numCmd": "28HK",
+						"numCmd": "28 HK",
 						"cmnCmd": "HK Up Ball",
 						"startup": "5",
 						"active": "16",
@@ -16238,7 +16238,7 @@
 				{
 						"moveName": "Vertical Rolling EX",
 						"plnCmd": "d,u+KK",
-						"numCmd": "28KK",
+						"numCmd": "28 KK",
 						"cmnCmd": "EX Up Ball",
 						"startup": "5",
 						"active": "16",
@@ -18501,7 +18501,7 @@
 				{
 						"moveName": "Fatal Leg Twister",
 						"plnCmd": "hcf+P > LP+LK",
-						"numCmd": "41236P > LPLK",
+						"numCmd": "41236P > LPLK (air)",
 						"cmnCmd": "Hooligan > Throw",
 						"startup": "24+4",
 						"active": 2,
@@ -19573,7 +19573,7 @@
 				{
 						"moveName": "neutral jump HK",
 						"plnCmd": "u+HK",
-						"numCmd": "8HK",
+						"numCmd": "8 > j.HK",
 						"cmnCmd": "Split Kicks",
 						"startup": 7,
 						"active": 5,
@@ -21190,7 +21190,7 @@
 					{
 							"moveName": "Yosokyaku",
 							"plnCmd": "d or df+MK during jump",
-							"numCmd": "2 or 3MK (air)",
+							"numCmd": "j.2MK",
 							"cmnCmd": "Air Stomps",
 							"startup": "5+4+5",
 							"active": 4,
@@ -26389,7 +26389,7 @@
 				{
 						"moveName": "neutral jump HP",
 						"plnCmd": "u+HP",
-						"numCmd": "8HP",
+						"numCmd": "8 > j.HP",
 						"startup": 10,
 						"active": 5,
 						"recovery": "~",
@@ -26484,7 +26484,7 @@
 				{
 						"moveName": "Flying Sumo Press",
 						"plnCmd": "d+MK (air)",
-						"numCmd": "2MK (air)",
+						"numCmd": "9 > j.2MK",
 						"cmnCmd": "Cross-up",
 						"startup": 12,
 						"active": 9,
@@ -27385,7 +27385,7 @@
 					{
 							"moveName": "Oni-Daikaku",
 							"plnCmd": "HP+HK",
-							"numCmd": "HPHK",
+							"numCmd": "HPHK (VT1)",
 							"cmnCmd": "V-Trigger Headbutt",
 							"startup": 10,
 							"active": "3(3)21",
@@ -27411,7 +27411,7 @@
 					{
 							"moveName": "Oni-Daikaku (Hold)",
 							"plnCmd": "HP+HK (Hold)",
-							"numCmd": "HPHK (hold)",
+							"numCmd": "HPHK (VT1) (hold)",
 							"cmnCmd": "V-Trigger Charged Headbutt",
 							"startup": 60,
 							"active": "3(3)21",
@@ -27437,7 +27437,7 @@
 					{
 							"moveName": "Oni-Daikaku (Release)",
 							"plnCmd": "HP+HK (Release)",
-							"numCmd": "HPHK (release)",
+							"numCmd": "HPHK (VT1) (release)",
 							"cmnCmd": "V-Trigger Headbutt Release",
 							"startup": 3,
 							"active": "3(3)21",
@@ -27460,7 +27460,7 @@
 					{
 							"moveName": "Oni-Muso",
 							"plnCmd": "HP+HK > HP+HK",
-							"numCmd": "HPHK > HPHK",
+							"numCmd": "HPHK (VT1) > HPHK",
 							"cmnCmd": "V-Trigger Headbutt Followup",
 							"startup": 3,
 							"active": "3(3)21",
@@ -27488,7 +27488,7 @@
 					{
 							"moveName": "Iwato Biraki",
 							"plnCmd": "HP+HK",
-							"numCmd": "HPHK",
+							"numCmd": "HPHK (VT2)",
 							"cmnCmd": "V-Trigger Running Grab",
 							"startup": "28(17)",
 							"active": 20,
@@ -28815,7 +28815,7 @@
 				{
 						"moveName": "EX Psycho Splash",
 						"plnCmd": "PP (after KK)",
-						"numCmd": "5PP (after 5KK)",
+						"numCmd": "5KK > PP",
 						"cmnCmd": "EX Dive",
 						"startup": "23+14",
 						"active": "~",
@@ -31747,7 +31747,7 @@
 				{
 						"moveName": "Psycho Kanonen",
 						"plnCmd": "hold P + release (crouching)",
-						"numCmd": "hold P + release 2",
+						"numCmd": "hold P > 2 release",
 						"cmnCmd": "Crouch Fireball (sniper)",
 						"startup": "24",
 						"active": "20",
@@ -32657,7 +32657,7 @@
 				{
 						"moveName": "Flying President",
 						"plnCmd": "d+MP during f jump",
-						"numCmd": "9 > 2MP",
+						"numCmd": "9 > j.2MP",
 						"startup": 9,
 						"active": 7,
 						"recovery": "~",
@@ -36284,7 +36284,7 @@
 					{
 							"moveName": "Volcanic Storm",
 							"plnCmd": "HP+HK > HP+HK",
-							"numCmd": "HPHK > HPHK",
+							"numCmd": "HPHK (VT1) > HPHK",
 							"cmnCmd": "VT1 Special -> VT1 Projectile",
 							"startup": "12+19",
 							"active": "~(12)",
@@ -36490,7 +36490,7 @@
 					{
 							"moveName": "Tree of Frost",
 							"plnCmd": "HP+HK",
-							"numCmd": "HPHK",
+							"numCmd": "HPHK (VT2)",
 							"cmnCmd": "Ice Tree",
 							"startup": 22,
 							"active": "2*2*2*2*2",
@@ -36517,7 +36517,7 @@
 					{
 							"moveName": "Delay Freeze Lance",
 							"plnCmd": "d, db or df HP+HK",
-							"numCmd": "2 or 1 or 3 HPHK",
+							"numCmd": "2 or 1 or 3 HPHK (VT2)",
 							"cmnCmd": "Ice Trap",
 							"startup": "50(3)",
 							"active": "180(12)",
@@ -42896,7 +42896,7 @@
 				{
 						"moveName": "Tenmakujinkyaku",
 						"plnCmd": "Forward Jump > d+MK ",
-						"numCmd": "9 > 2MK (air)",
+						"numCmd": "9 > j.2MK",
 						"cmnCmd": "Divekick",
 						"startup": 16,
 						"active": "~",
@@ -44154,7 +44154,7 @@
 					{
 							"moveName": "Ashura Senku (Forward)",
 							"plnCmd": "HP+HK",
-							"numCmd": "HPHK",
+							"numCmd": "HPHK (VT1)",
 							"cmnCmd": "Teleport (Forward)",
 							"startup": "~",
 							"active": "~",
@@ -44178,7 +44178,7 @@
 					{
 							"moveName": "Ashura Senku (Back)",
 							"plnCmd": "b+HP+HK",
-							"numCmd": "4HPHK",
+							"numCmd": "4HPHK (VT1)",
 							"cmnCmd": "Teleport (Back)",
 							"startup": "~",
 							"active": "~",
@@ -44202,7 +44202,7 @@
 					{
 							"moveName": "Airborne Ashura Senku (Forward)",
 							"plnCmd": "HP+HK (air)",
-							"numCmd": "HPHK (air)",
+							"numCmd": "HPHK (VT1) (air)",
 							"cmnCmd": "Air Teleport (Forward)",
 							"startup": "~",
 							"active": "~",
@@ -44226,7 +44226,7 @@
 					{
 							"moveName": "Airborne Ashura Senku (Back)",
 							"plnCmd": "b+HP+HK (air)",
-							"numCmd": "4HPHK (air)",
+							"numCmd": "4HPHK (VT1) (air)",
 							"cmnCmd": "Air Teleport (Back)",
 							"startup": "~",
 							"active": "~",
@@ -44252,7 +44252,7 @@
 					{
 							"moveName": "Misogi",
 							"plnCmd": "HP+HK",
-							"numCmd": "HPHK",
+							"numCmd": "HPHK (VT2)",
 							"cmnCmd": "Teleport Slam",
 							"startup": "30(7)",
 							"active": "~",
@@ -44913,7 +44913,7 @@
 				{
 						"moveName": "Ku-Renge",
 						"plnCmd": "j.MP > HP",
-						"numCmd": "8MP > 8HP",
+						"numCmd": "j.MP > HP",
 						"cmnCmd": "Air Target Combo",
 						"startup": "6+7",
 						"active": "6(6)1",
@@ -49093,7 +49093,7 @@
 				{
 						"moveName": "Diamond Dust  2nd",
 						"plnCmd": "HP+HK (VT1 - 2nd hit)",
-						"numCmd": "HPHK (VT1 - 2nd hit)",
+						"numCmd": "HPHK (VT1)",
 						"cmnCmd": "VTrigger 1 2nd hit",
 						"startup": 17,
 						"active": 24,
@@ -50529,7 +50529,7 @@
 					{
 							"moveName": "Inside Slash (dash)",
 							"plnCmd": "f,f,MP+MK (VS1)",
-							"numCmd": "66 > MPMK (VS1) Slash",
+							"numCmd": "6 6 > MPMK (VS1) Slash",
 							"cmnCmd": "Dash VSkill 1",
 							"startup": 11,
 							"active": 2,
@@ -50913,7 +50913,7 @@
 					{
 							"moveName": "Forward Dash (Slide)",
 							"plnCmd": "f,f (hold)",
-							"numCmd": "66 (hold)",
+							"numCmd": "6 6 (hold)",
 							"cmnCmd": "Run",
 							"startup": 10,
 							"active": "~",
@@ -53178,7 +53178,7 @@
 					{
 							"moveName": "Matsuda Sway > V-Skill 2 Leap",
 							"plnCmd": "HP+HK > MP+MK (VS2)",
-							"numCmd": "HPHK > MPMK (VS2)",
+							"numCmd": "HPHK (VT2) > MPMK (VS2)",
 							"cmnCmd": "Sway > VSkill 2",
 							"startup": "13+11",
 							"active": 2,
@@ -55130,7 +55130,7 @@
 					{
 							"moveName": "Tactical Weapon",
 							"plnCmd": "HP+HK",
-							"numCmd": "HPHK",
+							"numCmd": "HPHK (VT2)",
 							"cmnCmd": "Baton Swing (VT2)",
 							"startup": 16,
 							"active": 2,
@@ -56627,7 +56627,7 @@
 				{
 						"moveName": "Forward Dash",
 						"plnCmd": "f+f",
-						"numCmd": 66,
+						"numCmd": "6 6",
 						"cmnCmd": "Forward Dash",
 						"startup": "~",
 						"active": "~",
@@ -56983,7 +56983,7 @@
 					{
 							"moveName": "Devil Reverse",
 							"plnCmd": "P before head press",
-							"numCmd": "P before head press",
+							"numCmd": "28K > P",
 							"cmnCmd": "Devil Reverse",
 							"startup": 32,
 							"active": 22,
@@ -57009,7 +57009,7 @@
 					{
 							"moveName": "Devil Reverse EX",
 							"plnCmd": "PP before head press",
-							"numCmd": "PP before head press",
+							"numCmd": "28KK > P",
 							"cmnCmd": "EX Devil Reverse",
 							"startup": 40,
 							"active": 24,
@@ -57165,7 +57165,7 @@
 					{
 							"moveName": "Forward Dash",
 							"plnCmd": "f+f",
-							"numCmd": 66,
+							"numCmd": "6 6",
 							"cmnCmd": "Forward Dash",
 							"startup": "~",
 							"active": "~",
@@ -59143,7 +59143,7 @@
 					{
 							"moveName": "Prophecy of Thoth ",
 							"plnCmd": "HP+HK (reload)",
-							"numCmd": "HPHK (reload)",
+							"numCmd": "HPHK (VT2)",
 							"cmnCmd": "VTrigger 2 reload",
 							"startup": "~",
 							"active": "~",
@@ -63366,7 +63366,7 @@
 					{
 							"moveName": "Clouded Mirror (hold)",
 							"plnCmd": "HP+HK (hold)",
-							"numCmd": "HPHK (hold)",
+							"numCmd": "HPHK (VT1) (hold)",
 							"cmnCmd": "VTrigger 1 Leap (hold)",
 							"startup": 57,
 							"active": "1(1)7",
@@ -66601,7 +66601,7 @@
 					{
 							"moveName": "Fire Squall",
 							"plnCmd": "HP+HK",
-							"numCmd": "5HPHK",
+							"numCmd": "5HPHK (VT1)",
 							"cmnCmd": "Molotov",
 							"startup": 19,
 							"active": "~(180)",
@@ -66629,7 +66629,7 @@
 					{
 							"moveName": "Fire Squall (Air)",
 							"plnCmd": "b+HP+HK",
-							"numCmd": "4HPHK",
+							"numCmd": "4HPHK (VT1)",
 							"cmnCmd": "Air Molotov",
 							"startup": 19,
 							"active": "~(180)",
@@ -66659,7 +66659,7 @@
 					{
 							"moveName": "Toxic Hold",
 							"plnCmd": "HP+HK",
-							"numCmd": "5HPHK",
+							"numCmd": "5HPHK (VT2)",
 							"cmnCmd": "Command Grab (close)",
 							"startup": 6,
 							"active": 3,
@@ -66685,7 +66685,7 @@
 					{
 							"moveName": "Toxic Bind",
 							"plnCmd": "f+HP+HK",
-							"numCmd": "6HPHK",
+							"numCmd": "6HPHK (VT2)",
 							"cmnCmd": "Command Grab (far)",
 							"startup": 29,
 							"active": "2(4)",
@@ -73066,7 +73066,7 @@
 					{
 							"moveName": "jump LP",
 							"plnCmd": "u+LP",
-							"numCmd": "8LP",
+							"numCmd": "j.LP",
 							"startup": 3,
 							"active": 6,
 							"recovery": "~",
@@ -73093,7 +73093,7 @@
 					{
 							"moveName": "jump MP",
 							"plnCmd": "u+MP",
-							"numCmd": "8MP",
+							"numCmd": "j.MP",
 							"startup": 7,
 							"active": "3(2)3",
 							"recovery": "~",
@@ -73121,7 +73121,7 @@
 					{
 							"moveName": "jump HP",
 							"plnCmd": "u+HP",
-							"numCmd": "8HP",
+							"numCmd": "j.HP",
 							"startup": 7,
 							"active": 5,
 							"recovery": "~",
@@ -73575,7 +73575,7 @@
 					{
 							"moveName": "Kakko Fubatsu",
 							"plnCmd": "HP+HK",
-							"numCmd": "HPHK",
+							"numCmd": "HPHK (VT2)",
 							"cmnCmd": "VTrigger 2 Parry",
 							"startup": "2(1)",
 							"active": 10,
@@ -76772,7 +76772,7 @@
 					{
 							"moveName": "Hogasho",
 							"plnCmd": "HP+HK ",
-							"numCmd": "HPHK",
+							"numCmd": "HPHK (VT1)",
 							"cmnCmd": "Palm",
 							"startup": 21,
 							"active": 7,
